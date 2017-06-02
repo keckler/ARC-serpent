@@ -1,0 +1,28 @@
+
+------- POWER -----------------------------------
+  Max. radial peaking:        3.04
+  Ave. radial peaking:        2.90
+  Min. radial peaking:        2.81
+  Max. peak axial peaking:    3.09
+  Ave. axial peaking:         2.73
+  Min. axial peaking:         2.09
+  Maximum batch power:        885.4 MW
+  Change in max. batch power: 66.4 MW
+--------------------------------------------------
+
+------- BURNUP -----------------------------------
+  Average discharge burnup: 101.2 MWd/kg
+  Peak discharge burnup:    283.0 MWd/kg
+  Burnup peaking:           2.80
+--------------------------------------------------
+
+------- FLUENCE ----------------------------------
+  Average discharge fluence: 12.34 x 1e23 n/cm^2
+  Peak discharge fluence:    29.71 x 1e23 n/cm^2
+  Fluence peaking:           2.41
+--------------------------------------------------
+
+------- DPA --------------------------------------
+  Average discharge DPA: 318
+  Peak discharge DPA:    767
+--------------------------------------------------

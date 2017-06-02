@@ -1,0 +1,12 @@
+///----------------------------------------------------------------------///
+|                                                                       
+|     System reached target convergence in 96 hours, 1 minute and 37 seconds
+|                                                                     
+|     Eq. cycle time was set at 730 days
+|     Fuel residence time is 24 years and 0 days
+|                                                                     
+|     Min/max cycle k_eff is 1.00389 / 1.04027
+|     Error in min. k_eff compared to target is 0.39%
+|                                                                       
+///----------------------------------------------------------------------///
+

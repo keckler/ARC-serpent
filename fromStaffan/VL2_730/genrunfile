@@ -1,0 +1,14 @@
+#!/bin/sh
+#SBATCH --mem_bind=verbose,local
+#SBATCH --cpu_bind=verbose,rank_ldom
+#SBATCH --job-name=VL2_730
+#SBATCH --output=slurm.out
+#SBATCH --error=slurm.err
+#SBATCH --partition=serial
+#SBATCH --time=100:50:00
+#SBATCH --cpus-per-task=1
+#SBATCH --ntasks=1
+#SBATCH --exclusive
+#SBATCH --account=neutronics
+
+srun python3 ADOPT.py >> output.txt
