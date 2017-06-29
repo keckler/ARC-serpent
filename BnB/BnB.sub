@@ -1,0 +1,32 @@
+#!/bin/sh
+
+#SBATCH --job-name=B&B_explicit
+
+#SBATCH --output=B&B.o
+
+#SBATCH --error=VL2.error
+
+#SBATCH --partition=savio
+
+#SBATCH --time=72:00:00
+
+#SBATCH --nodes=1
+
+# #SBATCH --ntasks-per-node=20
+
+# QoS:
+
+#SBATCH --qos=nuclear_savio_normal
+
+#
+
+# Account:
+
+#SBATCH -A co_nuclear
+
+#SBATCH --mail-user=keckler@berkeley.edu
+#SBATCH --mail-type=all
+
+# run command
+
+~/bin/sss2/sss2 B&B.inp
