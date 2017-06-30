@@ -1548,7 +1548,7 @@ set ngamma 2
 include "BnB_nonfuel"    
 
 % --- set data library locations
-set acelib "/global/home/groups/co_nuclear/serpent/xsdata_2/endfb7/sss_endfb7u.xsdata" "/global/home/ckeckler/photon.xsdata"
+set acelib "/global/home/groups/co_nuclear/serpent/xsdata_2/endfb7/sss_endfb7u.xsdata" "/global/scratch/ckeckler/photon.xsdata"
 set declib "/global/home/groups/co_nuclear/serpent/xsdata_2/endfb7/sss_endfb7.dec"
 set nfylib "/global/home/groups/co_nuclear/serpent/xsdata_2/endfb7/sss_endfb7.nfy"
 set pdatadir "/global/home/groups/co_nuclear/serpent/photon_data"
