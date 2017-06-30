@@ -1295,251 +1295,251 @@ lat 10 2 0 0 37 37 19.4586
 % ##################### Power distribution detector integrated over materials ####### //// ######## //// ####### 
 % ################################################################################### //// ######## //// ####### 
 
-det 1 PowerBatch1Axial1 dm Batch1Axial1 dr -8 void
-det 1 PowerBatch1Axial2 dm Batch1Axial2 dr -8 void
-det 1 PowerBatch1Axial3 dm Batch1Axial3 dr -8 void
-det 1 PowerBatch1Axial4 dm Batch1Axial4 dr -8 void
-det 1 PowerBatch1Axial5 dm Batch1Axial5 dr -8 void
-det 1 PowerBatch1Axial6 dm Batch1Axial6 dr -8 void
-det 1 PowerBatch1Axial7 dm Batch1Axial7 dr -8 void
-det 1 PowerBatch1Axial8 dm Batch1Axial8 dr -8 void
-det 1 PowerBatch1Axial9 dm Batch1Axial9 dr -8 void
-det 1 PowerBatch2Axial1 dm Batch2Axial1 dr -8 void
-det 1 PowerBatch2Axial2 dm Batch2Axial2 dr -8 void
-det 1 PowerBatch2Axial3 dm Batch2Axial3 dr -8 void
-det 1 PowerBatch2Axial4 dm Batch2Axial4 dr -8 void
-det 1 PowerBatch2Axial5 dm Batch2Axial5 dr -8 void
-det 1 PowerBatch2Axial6 dm Batch2Axial6 dr -8 void
-det 1 PowerBatch2Axial7 dm Batch2Axial7 dr -8 void
-det 1 PowerBatch2Axial8 dm Batch2Axial8 dr -8 void
-det 1 PowerBatch2Axial9 dm Batch2Axial9 dr -8 void
-det 1 PowerBatch3Axial1 dm Batch3Axial1 dr -8 void
-det 1 PowerBatch3Axial2 dm Batch3Axial2 dr -8 void
-det 1 PowerBatch3Axial3 dm Batch3Axial3 dr -8 void
-det 1 PowerBatch3Axial4 dm Batch3Axial4 dr -8 void
-det 1 PowerBatch3Axial5 dm Batch3Axial5 dr -8 void
-det 1 PowerBatch3Axial6 dm Batch3Axial6 dr -8 void
-det 1 PowerBatch3Axial7 dm Batch3Axial7 dr -8 void
-det 1 PowerBatch3Axial8 dm Batch3Axial8 dr -8 void
-det 1 PowerBatch3Axial9 dm Batch3Axial9 dr -8 void
-det 1 PowerBatch4Axial1 dm Batch4Axial1 dr -8 void
-det 1 PowerBatch4Axial2 dm Batch4Axial2 dr -8 void
-det 1 PowerBatch4Axial3 dm Batch4Axial3 dr -8 void
-det 1 PowerBatch4Axial4 dm Batch4Axial4 dr -8 void
-det 1 PowerBatch4Axial5 dm Batch4Axial5 dr -8 void
-det 1 PowerBatch4Axial6 dm Batch4Axial6 dr -8 void
-det 1 PowerBatch4Axial7 dm Batch4Axial7 dr -8 void
-det 1 PowerBatch4Axial8 dm Batch4Axial8 dr -8 void
-det 1 PowerBatch4Axial9 dm Batch4Axial9 dr -8 void
-det 1 PowerBatch5Axial1 dm Batch5Axial1 dr -8 void
-det 1 PowerBatch5Axial2 dm Batch5Axial2 dr -8 void
-det 1 PowerBatch5Axial3 dm Batch5Axial3 dr -8 void
-det 1 PowerBatch5Axial4 dm Batch5Axial4 dr -8 void
-det 1 PowerBatch5Axial5 dm Batch5Axial5 dr -8 void
-det 1 PowerBatch5Axial6 dm Batch5Axial6 dr -8 void
-det 1 PowerBatch5Axial7 dm Batch5Axial7 dr -8 void
-det 1 PowerBatch5Axial8 dm Batch5Axial8 dr -8 void
-det 1 PowerBatch5Axial9 dm Batch5Axial9 dr -8 void
-det 1 PowerBatch6Axial1 dm Batch6Axial1 dr -8 void
-det 1 PowerBatch6Axial2 dm Batch6Axial2 dr -8 void
-det 1 PowerBatch6Axial3 dm Batch6Axial3 dr -8 void
-det 1 PowerBatch6Axial4 dm Batch6Axial4 dr -8 void
-det 1 PowerBatch6Axial5 dm Batch6Axial5 dr -8 void
-det 1 PowerBatch6Axial6 dm Batch6Axial6 dr -8 void
-det 1 PowerBatch6Axial7 dm Batch6Axial7 dr -8 void
-det 1 PowerBatch6Axial8 dm Batch6Axial8 dr -8 void
-det 1 PowerBatch6Axial9 dm Batch6Axial9 dr -8 void
-det 1 PowerBatch7Axial1 dm Batch7Axial1 dr -8 void
-det 1 PowerBatch7Axial2 dm Batch7Axial2 dr -8 void
-det 1 PowerBatch7Axial3 dm Batch7Axial3 dr -8 void
-det 1 PowerBatch7Axial4 dm Batch7Axial4 dr -8 void
-det 1 PowerBatch7Axial5 dm Batch7Axial5 dr -8 void
-det 1 PowerBatch7Axial6 dm Batch7Axial6 dr -8 void
-det 1 PowerBatch7Axial7 dm Batch7Axial7 dr -8 void
-det 1 PowerBatch7Axial8 dm Batch7Axial8 dr -8 void
-det 1 PowerBatch7Axial9 dm Batch7Axial9 dr -8 void
-det 1 PowerBatch8Axial1 dm Batch8Axial1 dr -8 void
-det 1 PowerBatch8Axial2 dm Batch8Axial2 dr -8 void
-det 1 PowerBatch8Axial3 dm Batch8Axial3 dr -8 void
-det 1 PowerBatch8Axial4 dm Batch8Axial4 dr -8 void
-det 1 PowerBatch8Axial5 dm Batch8Axial5 dr -8 void
-det 1 PowerBatch8Axial6 dm Batch8Axial6 dr -8 void
-det 1 PowerBatch8Axial7 dm Batch8Axial7 dr -8 void
-det 1 PowerBatch8Axial8 dm Batch8Axial8 dr -8 void
-det 1 PowerBatch8Axial9 dm Batch8Axial9 dr -8 void
-det 1 PowerBatch9Axial1 dm Batch9Axial1 dr -8 void
-det 1 PowerBatch9Axial2 dm Batch9Axial2 dr -8 void
-det 1 PowerBatch9Axial3 dm Batch9Axial3 dr -8 void
-det 1 PowerBatch9Axial4 dm Batch9Axial4 dr -8 void
-det 1 PowerBatch9Axial5 dm Batch9Axial5 dr -8 void
-det 1 PowerBatch9Axial6 dm Batch9Axial6 dr -8 void
-det 1 PowerBatch9Axial7 dm Batch9Axial7 dr -8 void
-det 1 PowerBatch9Axial8 dm Batch9Axial8 dr -8 void
-det 1 PowerBatch9Axial9 dm Batch9Axial9 dr -8 void
-det 1 PowerBatch10Axial1 dm Batch10Axial1 dr -8 void
-det 1 PowerBatch10Axial2 dm Batch10Axial2 dr -8 void
-det 1 PowerBatch10Axial3 dm Batch10Axial3 dr -8 void
-det 1 PowerBatch10Axial4 dm Batch10Axial4 dr -8 void
-det 1 PowerBatch10Axial5 dm Batch10Axial5 dr -8 void
-det 1 PowerBatch10Axial6 dm Batch10Axial6 dr -8 void
-det 1 PowerBatch10Axial7 dm Batch10Axial7 dr -8 void
-det 1 PowerBatch10Axial8 dm Batch10Axial8 dr -8 void
-det 1 PowerBatch10Axial9 dm Batch10Axial9 dr -8 void
-det 1 PowerBatch11Axial1 dm Batch11Axial1 dr -8 void
-det 1 PowerBatch11Axial2 dm Batch11Axial2 dr -8 void
-det 1 PowerBatch11Axial3 dm Batch11Axial3 dr -8 void
-det 1 PowerBatch11Axial4 dm Batch11Axial4 dr -8 void
-det 1 PowerBatch11Axial5 dm Batch11Axial5 dr -8 void
-det 1 PowerBatch11Axial6 dm Batch11Axial6 dr -8 void
-det 1 PowerBatch11Axial7 dm Batch11Axial7 dr -8 void
-det 1 PowerBatch11Axial8 dm Batch11Axial8 dr -8 void
-det 1 PowerBatch11Axial9 dm Batch11Axial9 dr -8 void
-det 1 PowerBatch12Axial1 dm Batch12Axial1 dr -8 void
-det 1 PowerBatch12Axial2 dm Batch12Axial2 dr -8 void
-det 1 PowerBatch12Axial3 dm Batch12Axial3 dr -8 void
-det 1 PowerBatch12Axial4 dm Batch12Axial4 dr -8 void
-det 1 PowerBatch12Axial5 dm Batch12Axial5 dr -8 void
-det 1 PowerBatch12Axial6 dm Batch12Axial6 dr -8 void
-det 1 PowerBatch12Axial7 dm Batch12Axial7 dr -8 void
-det 1 PowerBatch12Axial8 dm Batch12Axial8 dr -8 void
-det 1 PowerBatch12Axial9 dm Batch12Axial9 dr -8 void
+det PowerBatch1Axial1 1 dm Batch1Axial1 dr -8 void
+det PowerBatch1Axial2 1 dm Batch1Axial2 dr -8 void
+det PowerBatch1Axial3 1 dm Batch1Axial3 dr -8 void
+det PowerBatch1Axial4 1 dm Batch1Axial4 dr -8 void
+det PowerBatch1Axial5 1 dm Batch1Axial5 dr -8 void
+det PowerBatch1Axial6 1 dm Batch1Axial6 dr -8 void
+det PowerBatch1Axial7 1 dm Batch1Axial7 dr -8 void
+det PowerBatch1Axial8 1 dm Batch1Axial8 dr -8 void
+det PowerBatch1Axial9 1 dm Batch1Axial9 dr -8 void
+det PowerBatch2Axial1 1 dm Batch2Axial1 dr -8 void
+det PowerBatch2Axial2 1 dm Batch2Axial2 dr -8 void
+det PowerBatch2Axial3 1 dm Batch2Axial3 dr -8 void
+det PowerBatch2Axial4 1 dm Batch2Axial4 dr -8 void
+det PowerBatch2Axial5 1 dm Batch2Axial5 dr -8 void
+det PowerBatch2Axial6 1 dm Batch2Axial6 dr -8 void
+det PowerBatch2Axial7 1 dm Batch2Axial7 dr -8 void
+det PowerBatch2Axial8 1 dm Batch2Axial8 dr -8 void
+det PowerBatch2Axial9 1 dm Batch2Axial9 dr -8 void
+det PowerBatch3Axial1 1 dm Batch3Axial1 dr -8 void
+det PowerBatch3Axial2 1 dm Batch3Axial2 dr -8 void
+det PowerBatch3Axial3 1 dm Batch3Axial3 dr -8 void
+det PowerBatch3Axial4 1 dm Batch3Axial4 dr -8 void
+det PowerBatch3Axial5 1 dm Batch3Axial5 dr -8 void
+det PowerBatch3Axial6 1 dm Batch3Axial6 dr -8 void
+det PowerBatch3Axial7 1 dm Batch3Axial7 dr -8 void
+det PowerBatch3Axial8 1 dm Batch3Axial8 dr -8 void
+det PowerBatch3Axial9 1 dm Batch3Axial9 dr -8 void
+det PowerBatch4Axial1 1 dm Batch4Axial1 dr -8 void
+det PowerBatch4Axial2 1 dm Batch4Axial2 dr -8 void
+det PowerBatch4Axial3 1 dm Batch4Axial3 dr -8 void
+det PowerBatch4Axial4 1 dm Batch4Axial4 dr -8 void
+det PowerBatch4Axial5 1 dm Batch4Axial5 dr -8 void
+det PowerBatch4Axial6 1 dm Batch4Axial6 dr -8 void
+det PowerBatch4Axial7 1 dm Batch4Axial7 dr -8 void
+det PowerBatch4Axial8 1 dm Batch4Axial8 dr -8 void
+det PowerBatch4Axial9 1 dm Batch4Axial9 dr -8 void
+det PowerBatch5Axial1 1 dm Batch5Axial1 dr -8 void
+det PowerBatch5Axial2 1 dm Batch5Axial2 dr -8 void
+det PowerBatch5Axial3 1 dm Batch5Axial3 dr -8 void
+det PowerBatch5Axial4 1 dm Batch5Axial4 dr -8 void
+det PowerBatch5Axial5 1 dm Batch5Axial5 dr -8 void
+det PowerBatch5Axial6 1 dm Batch5Axial6 dr -8 void
+det PowerBatch5Axial7 1 dm Batch5Axial7 dr -8 void
+det PowerBatch5Axial8 1 dm Batch5Axial8 dr -8 void
+det PowerBatch5Axial9 1 dm Batch5Axial9 dr -8 void
+det PowerBatch6Axial1 1 dm Batch6Axial1 dr -8 void
+det PowerBatch6Axial2 1 dm Batch6Axial2 dr -8 void
+det PowerBatch6Axial3 1 dm Batch6Axial3 dr -8 void
+det PowerBatch6Axial4 1 dm Batch6Axial4 dr -8 void
+det PowerBatch6Axial5 1 dm Batch6Axial5 dr -8 void
+det PowerBatch6Axial6 1 dm Batch6Axial6 dr -8 void
+det PowerBatch6Axial7 1 dm Batch6Axial7 dr -8 void
+det PowerBatch6Axial8 1 dm Batch6Axial8 dr -8 void
+det PowerBatch6Axial9 1 dm Batch6Axial9 dr -8 void
+det PowerBatch7Axial1 1 dm Batch7Axial1 dr -8 void
+det PowerBatch7Axial2 1 dm Batch7Axial2 dr -8 void
+det PowerBatch7Axial3 1 dm Batch7Axial3 dr -8 void
+det PowerBatch7Axial4 1 dm Batch7Axial4 dr -8 void
+det PowerBatch7Axial5 1 dm Batch7Axial5 dr -8 void
+det PowerBatch7Axial6 1 dm Batch7Axial6 dr -8 void
+det PowerBatch7Axial7 1 dm Batch7Axial7 dr -8 void
+det PowerBatch7Axial8 1 dm Batch7Axial8 dr -8 void
+det PowerBatch7Axial9 1 dm Batch7Axial9 dr -8 void
+det PowerBatch8Axial1 1 dm Batch8Axial1 dr -8 void
+det PowerBatch8Axial2 1 dm Batch8Axial2 dr -8 void
+det PowerBatch8Axial3 1 dm Batch8Axial3 dr -8 void
+det PowerBatch8Axial4 1 dm Batch8Axial4 dr -8 void
+det PowerBatch8Axial5 1 dm Batch8Axial5 dr -8 void
+det PowerBatch8Axial6 1 dm Batch8Axial6 dr -8 void
+det PowerBatch8Axial7 1 dm Batch8Axial7 dr -8 void
+det PowerBatch8Axial8 1 dm Batch8Axial8 dr -8 void
+det PowerBatch8Axial9 1 dm Batch8Axial9 dr -8 void
+det PowerBatch9Axial1 1 dm Batch9Axial1 dr -8 void
+det PowerBatch9Axial2 1 dm Batch9Axial2 dr -8 void
+det PowerBatch9Axial3 1 dm Batch9Axial3 dr -8 void
+det PowerBatch9Axial4 1 dm Batch9Axial4 dr -8 void
+det PowerBatch9Axial5 1 dm Batch9Axial5 dr -8 void
+det PowerBatch9Axial6 1 dm Batch9Axial6 dr -8 void
+det PowerBatch9Axial7 1 dm Batch9Axial7 dr -8 void
+det PowerBatch9Axial8 1 dm Batch9Axial8 dr -8 void
+det PowerBatch9Axial9 1 dm Batch9Axial9 dr -8 void
+det PowerBatch10Axial1 1 dm Batch10Axial1 dr -8 void
+det PowerBatch10Axial2 1 dm Batch10Axial2 dr -8 void
+det PowerBatch10Axial3 1 dm Batch10Axial3 dr -8 void
+det PowerBatch10Axial4 1 dm Batch10Axial4 dr -8 void
+det PowerBatch10Axial5 1 dm Batch10Axial5 dr -8 void
+det PowerBatch10Axial6 1 dm Batch10Axial6 dr -8 void
+det PowerBatch10Axial7 1 dm Batch10Axial7 dr -8 void
+det PowerBatch10Axial8 1 dm Batch10Axial8 dr -8 void
+det PowerBatch10Axial9 1 dm Batch10Axial9 dr -8 void
+det PowerBatch11Axial1 1 dm Batch11Axial1 dr -8 void
+det PowerBatch11Axial2 1 dm Batch11Axial2 dr -8 void
+det PowerBatch11Axial3 1 dm Batch11Axial3 dr -8 void
+det PowerBatch11Axial4 1 dm Batch11Axial4 dr -8 void
+det PowerBatch11Axial5 1 dm Batch11Axial5 dr -8 void
+det PowerBatch11Axial6 1 dm Batch11Axial6 dr -8 void
+det PowerBatch11Axial7 1 dm Batch11Axial7 dr -8 void
+det PowerBatch11Axial8 1 dm Batch11Axial8 dr -8 void
+det PowerBatch11Axial9 1 dm Batch11Axial9 dr -8 void
+det PowerBatch12Axial1 1 dm Batch12Axial1 dr -8 void
+det PowerBatch12Axial2 1 dm Batch12Axial2 dr -8 void
+det PowerBatch12Axial3 1 dm Batch12Axial3 dr -8 void
+det PowerBatch12Axial4 1 dm Batch12Axial4 dr -8 void
+det PowerBatch12Axial5 1 dm Batch12Axial5 dr -8 void
+det PowerBatch12Axial6 1 dm Batch12Axial6 dr -8 void
+det PowerBatch12Axial7 1 dm Batch12Axial7 dr -8 void
+det PowerBatch12Axial8 1 dm Batch12Axial8 dr -8 void
+det PowerBatch12Axial9 1 dm Batch12Axial9 dr -8 void
 
 % ################################################################################### //// ######## //// ####### 
 % ##################### Flux distribution detector integrated over materials ######## //// ######## //// ####### 
 % ################################################################################### //// ######## //// ####### 
 
-det 1 FluxBatch1Axial1 dm Batch1Axial1
-det 1 FluxBatch1Axial2 dm Batch1Axial2
-det 1 FluxBatch1Axial3 dm Batch1Axial3
-det 1 FluxBatch1Axial4 dm Batch1Axial4
-det 1 FluxBatch1Axial5 dm Batch1Axial5
-det 1 FluxBatch1Axial6 dm Batch1Axial6
-det 1 FluxBatch1Axial7 dm Batch1Axial7
-det 1 FluxBatch1Axial8 dm Batch1Axial8
-det 1 FluxBatch1Axial9 dm Batch1Axial9
-det 1 FluxBatch2Axial1 dm Batch2Axial1
-det 1 FluxBatch2Axial2 dm Batch2Axial2
-det 1 FluxBatch2Axial3 dm Batch2Axial3
-det 1 FluxBatch2Axial4 dm Batch2Axial4
-det 1 FluxBatch2Axial5 dm Batch2Axial5
-det 1 FluxBatch2Axial6 dm Batch2Axial6
-det 1 FluxBatch2Axial7 dm Batch2Axial7
-det 1 FluxBatch2Axial8 dm Batch2Axial8
-det 1 FluxBatch2Axial9 dm Batch2Axial9
-det 1 FluxBatch3Axial1 dm Batch3Axial1
-det 1 FluxBatch3Axial2 dm Batch3Axial2
-det 1 FluxBatch3Axial3 dm Batch3Axial3
-det 1 FluxBatch3Axial4 dm Batch3Axial4
-det 1 FluxBatch3Axial5 dm Batch3Axial5
-det 1 FluxBatch3Axial6 dm Batch3Axial6
-det 1 FluxBatch3Axial7 dm Batch3Axial7
-det 1 FluxBatch3Axial8 dm Batch3Axial8
-det 1 FluxBatch3Axial9 dm Batch3Axial9
-det 1 FluxBatch4Axial1 dm Batch4Axial1
-det 1 FluxBatch4Axial2 dm Batch4Axial2
-det 1 FluxBatch4Axial3 dm Batch4Axial3
-det 1 FluxBatch4Axial4 dm Batch4Axial4
-det 1 FluxBatch4Axial5 dm Batch4Axial5
-det 1 FluxBatch4Axial6 dm Batch4Axial6
-det 1 FluxBatch4Axial7 dm Batch4Axial7
-det 1 FluxBatch4Axial8 dm Batch4Axial8
-det 1 FluxBatch4Axial9 dm Batch4Axial9
-det 1 FluxBatch5Axial1 dm Batch5Axial1
-det 1 FluxBatch5Axial2 dm Batch5Axial2
-det 1 FluxBatch5Axial3 dm Batch5Axial3
-det 1 FluxBatch5Axial4 dm Batch5Axial4
-det 1 FluxBatch5Axial5 dm Batch5Axial5
-det 1 FluxBatch5Axial6 dm Batch5Axial6
-det 1 FluxBatch5Axial7 dm Batch5Axial7
-det 1 FluxBatch5Axial8 dm Batch5Axial8
-det 1 FluxBatch5Axial9 dm Batch5Axial9
-det 1 FluxBatch6Axial1 dm Batch6Axial1
-det 1 FluxBatch6Axial2 dm Batch6Axial2
-det 1 FluxBatch6Axial3 dm Batch6Axial3
-det 1 FluxBatch6Axial4 dm Batch6Axial4
-det 1 FluxBatch6Axial5 dm Batch6Axial5
-det 1 FluxBatch6Axial6 dm Batch6Axial6
-det 1 FluxBatch6Axial7 dm Batch6Axial7
-det 1 FluxBatch6Axial8 dm Batch6Axial8
-det 1 FluxBatch6Axial9 dm Batch6Axial9
-det 1 FluxBatch7Axial1 dm Batch7Axial1
-det 1 FluxBatch7Axial2 dm Batch7Axial2
-det 1 FluxBatch7Axial3 dm Batch7Axial3
-det 1 FluxBatch7Axial4 dm Batch7Axial4
-det 1 FluxBatch7Axial5 dm Batch7Axial5
-det 1 FluxBatch7Axial6 dm Batch7Axial6
-det 1 FluxBatch7Axial7 dm Batch7Axial7
-det 1 FluxBatch7Axial8 dm Batch7Axial8
-det 1 FluxBatch7Axial9 dm Batch7Axial9
-det 1 FluxBatch8Axial1 dm Batch8Axial1
-det 1 FluxBatch8Axial2 dm Batch8Axial2
-det 1 FluxBatch8Axial3 dm Batch8Axial3
-det 1 FluxBatch8Axial4 dm Batch8Axial4
-det 1 FluxBatch8Axial5 dm Batch8Axial5
-det 1 FluxBatch8Axial6 dm Batch8Axial6
-det 1 FluxBatch8Axial7 dm Batch8Axial7
-det 1 FluxBatch8Axial8 dm Batch8Axial8
-det 1 FluxBatch8Axial9 dm Batch8Axial9
-det 1 FluxBatch9Axial1 dm Batch9Axial1
-det 1 FluxBatch9Axial2 dm Batch9Axial2
-det 1 FluxBatch9Axial3 dm Batch9Axial3
-det 1 FluxBatch9Axial4 dm Batch9Axial4
-det 1 FluxBatch9Axial5 dm Batch9Axial5
-det 1 FluxBatch9Axial6 dm Batch9Axial6
-det 1 FluxBatch9Axial7 dm Batch9Axial7
-det 1 FluxBatch9Axial8 dm Batch9Axial8
-det 1 FluxBatch9Axial9 dm Batch9Axial9
-det 1 FluxBatch10Axial1 dm Batch10Axial1
-det 1 FluxBatch10Axial2 dm Batch10Axial2
-det 1 FluxBatch10Axial3 dm Batch10Axial3
-det 1 FluxBatch10Axial4 dm Batch10Axial4
-det 1 FluxBatch10Axial5 dm Batch10Axial5
-det 1 FluxBatch10Axial6 dm Batch10Axial6
-det 1 FluxBatch10Axial7 dm Batch10Axial7
-det 1 FluxBatch10Axial8 dm Batch10Axial8
-det 1 FluxBatch10Axial9 dm Batch10Axial9
-det 1 FluxBatch11Axial1 dm Batch11Axial1
-det 1 FluxBatch11Axial2 dm Batch11Axial2
-det 1 FluxBatch11Axial3 dm Batch11Axial3
-det 1 FluxBatch11Axial4 dm Batch11Axial4
-det 1 FluxBatch11Axial5 dm Batch11Axial5
-det 1 FluxBatch11Axial6 dm Batch11Axial6
-det 1 FluxBatch11Axial7 dm Batch11Axial7
-det 1 FluxBatch11Axial8 dm Batch11Axial8
-det 1 FluxBatch11Axial9 dm Batch11Axial9
-det 1 FluxBatch12Axial1 dm Batch12Axial1
-det 1 FluxBatch12Axial2 dm Batch12Axial2
-det 1 FluxBatch12Axial3 dm Batch12Axial3
-det 1 FluxBatch12Axial4 dm Batch12Axial4
-det 1 FluxBatch12Axial5 dm Batch12Axial5
-det 1 FluxBatch12Axial6 dm Batch12Axial6
-det 1 FluxBatch12Axial7 dm Batch12Axial7
-det 1 FluxBatch12Axial8 dm Batch12Axial8
-det 1 FluxBatch12Axial9 dm Batch12Axial9
+det FluxBatch1Axial1 1 dm Batch1Axial1
+det FluxBatch1Axial2 1 dm Batch1Axial2
+det FluxBatch1Axial3 1 dm Batch1Axial3
+det FluxBatch1Axial4 1 dm Batch1Axial4
+det FluxBatch1Axial5 1 dm Batch1Axial5
+det FluxBatch1Axial6 1 dm Batch1Axial6
+det FluxBatch1Axial7 1 dm Batch1Axial7
+det FluxBatch1Axial8 1 dm Batch1Axial8
+det FluxBatch1Axial9 1 dm Batch1Axial9
+det FluxBatch2Axial1 1 dm Batch2Axial1
+det FluxBatch2Axial2 1 dm Batch2Axial2
+det FluxBatch2Axial3 1 dm Batch2Axial3
+det FluxBatch2Axial4 1 dm Batch2Axial4
+det FluxBatch2Axial5 1 dm Batch2Axial5
+det FluxBatch2Axial6 1 dm Batch2Axial6
+det FluxBatch2Axial7 1 dm Batch2Axial7
+det FluxBatch2Axial8 1 dm Batch2Axial8
+det FluxBatch2Axial9 1 dm Batch2Axial9
+det FluxBatch3Axial1 1 dm Batch3Axial1
+det FluxBatch3Axial2 1 dm Batch3Axial2
+det FluxBatch3Axial3 1 dm Batch3Axial3
+det FluxBatch3Axial4 1 dm Batch3Axial4
+det FluxBatch3Axial5 1 dm Batch3Axial5
+det FluxBatch3Axial6 1 dm Batch3Axial6
+det FluxBatch3Axial7 1 dm Batch3Axial7
+det FluxBatch3Axial8 1 dm Batch3Axial8
+det FluxBatch3Axial9 1 dm Batch3Axial9
+det FluxBatch4Axial1 1 dm Batch4Axial1
+det FluxBatch4Axial2 1 dm Batch4Axial2
+det FluxBatch4Axial3 1 dm Batch4Axial3
+det FluxBatch4Axial4 1 dm Batch4Axial4
+det FluxBatch4Axial5 1 dm Batch4Axial5
+det FluxBatch4Axial6 1 dm Batch4Axial6
+det FluxBatch4Axial7 1 dm Batch4Axial7
+det FluxBatch4Axial8 1 dm Batch4Axial8
+det FluxBatch4Axial9 1 dm Batch4Axial9
+det FluxBatch5Axial1 1 dm Batch5Axial1
+det FluxBatch5Axial2 1 dm Batch5Axial2
+det FluxBatch5Axial3 1 dm Batch5Axial3
+det FluxBatch5Axial4 1 dm Batch5Axial4
+det FluxBatch5Axial5 1 dm Batch5Axial5
+det FluxBatch5Axial6 1 dm Batch5Axial6
+det FluxBatch5Axial7 1 dm Batch5Axial7
+det FluxBatch5Axial8 1 dm Batch5Axial8
+det FluxBatch5Axial9 1 dm Batch5Axial9
+det FluxBatch6Axial1 1 dm Batch6Axial1
+det FluxBatch6Axial2 1 dm Batch6Axial2
+det FluxBatch6Axial3 1 dm Batch6Axial3
+det FluxBatch6Axial4 1 dm Batch6Axial4
+det FluxBatch6Axial5 1 dm Batch6Axial5
+det FluxBatch6Axial6 1 dm Batch6Axial6
+det FluxBatch6Axial7 1 dm Batch6Axial7
+det FluxBatch6Axial8 1 dm Batch6Axial8
+det FluxBatch6Axial9 1 dm Batch6Axial9
+det FluxBatch7Axial1 1 dm Batch7Axial1
+det FluxBatch7Axial2 1 dm Batch7Axial2
+det FluxBatch7Axial3 1 dm Batch7Axial3
+det FluxBatch7Axial4 1 dm Batch7Axial4
+det FluxBatch7Axial5 1 dm Batch7Axial5
+det FluxBatch7Axial6 1 dm Batch7Axial6
+det FluxBatch7Axial7 1 dm Batch7Axial7
+det FluxBatch7Axial8 1 dm Batch7Axial8
+det FluxBatch7Axial9 1 dm Batch7Axial9
+det FluxBatch8Axial1 1 dm Batch8Axial1
+det FluxBatch8Axial2 1 dm Batch8Axial2
+det FluxBatch8Axial3 1 dm Batch8Axial3
+det FluxBatch8Axial4 1 dm Batch8Axial4
+det FluxBatch8Axial5 1 dm Batch8Axial5
+det FluxBatch8Axial6 1 dm Batch8Axial6
+det FluxBatch8Axial7 1 dm Batch8Axial7
+det FluxBatch8Axial8 1 dm Batch8Axial8
+det FluxBatch8Axial9 1 dm Batch8Axial9
+det FluxBatch9Axial1 1 dm Batch9Axial1
+det FluxBatch9Axial2 1 dm Batch9Axial2
+det FluxBatch9Axial3 1 dm Batch9Axial3
+det FluxBatch9Axial4 1 dm Batch9Axial4
+det FluxBatch9Axial5 1 dm Batch9Axial5
+det FluxBatch9Axial6 1 dm Batch9Axial6
+det FluxBatch9Axial7 1 dm Batch9Axial7
+det FluxBatch9Axial8 1 dm Batch9Axial8
+det FluxBatch9Axial9 1 dm Batch9Axial9
+det FluxBatch10Axial1 1 dm Batch10Axial1
+det FluxBatch10Axial2 1 dm Batch10Axial2
+det FluxBatch10Axial3 1 dm Batch10Axial3
+det FluxBatch10Axial4 1 dm Batch10Axial4
+det FluxBatch10Axial5 1 dm Batch10Axial5
+det FluxBatch10Axial6 1 dm Batch10Axial6
+det FluxBatch10Axial7 1 dm Batch10Axial7
+det FluxBatch10Axial8 1 dm Batch10Axial8
+det FluxBatch10Axial9 1 dm Batch10Axial9
+det FluxBatch11Axial1 1 dm Batch11Axial1
+det FluxBatch11Axial2 1 dm Batch11Axial2
+det FluxBatch11Axial3 1 dm Batch11Axial3
+det FluxBatch11Axial4 1 dm Batch11Axial4
+det FluxBatch11Axial5 1 dm Batch11Axial5
+det FluxBatch11Axial6 1 dm Batch11Axial6
+det FluxBatch11Axial7 1 dm Batch11Axial7
+det FluxBatch11Axial8 1 dm Batch11Axial8
+det FluxBatch11Axial9 1 dm Batch11Axial9
+det FluxBatch12Axial1 1 dm Batch12Axial1
+det FluxBatch12Axial2 1 dm Batch12Axial2
+det FluxBatch12Axial3 1 dm Batch12Axial3
+det FluxBatch12Axial4 1 dm Batch12Axial4
+det FluxBatch12Axial5 1 dm Batch12Axial5
+det FluxBatch12Axial6 1 dm Batch12Axial6
+det FluxBatch12Axial7 1 dm Batch12Axial7
+det FluxBatch12Axial8 1 dm Batch12Axial8
+det FluxBatch12Axial9 1 dm Batch12Axial9
 
 % ################################################################################### //// ######## //// ####### 
 % ##################### Power distribution detector in each assembly ################ //// ######## //// ####### 
 % ################################################################################### //// ######## //// #######
 
-det 1 AssemblyPowerAxial1 dl 1 dr -8 void
-det 1 AssemblyPowerAxial2 dl 2 dr -8 void
-det 1 AssemblyPowerAxial3 dl 3 dr -8 void
-det 1 AssemblyPowerAxial4 dl 4 dr -8 void
-det 1 AssemblyPowerAxial5 dl 5 dr -8 void
-det 1 AssemblyPowerAxial6 dl 6 dr -8 void
-det 1 AssemblyPowerAxial7 dl 7 dr -8 void
-det 1 AssemblyPowerAxial8 dl 8 dr -8 void
-det 1 AssemblyPowerAxial9 dl 9 dr -8 void
+det AssemblyPowerAxial1 1 dl 1 dr -8 void
+det AssemblyPowerAxial2 1 dl 2 dr -8 void
+det AssemblyPowerAxial3 1 dl 3 dr -8 void
+det AssemblyPowerAxial4 1 dl 4 dr -8 void
+det AssemblyPowerAxial5 1 dl 5 dr -8 void
+det AssemblyPowerAxial6 1 dl 6 dr -8 void
+det AssemblyPowerAxial7 1 dl 7 dr -8 void
+det AssemblyPowerAxial8 1 dl 8 dr -8 void
+det AssemblyPowerAxial9 1 dl 9 dr -8 void
 
-det 2 AssemblyGammaPowerAxial1 dl 1 dr -12 void
-det 2 AssemblyGammaPowerAxial2 dl 2 dr -12 void
-det 2 AssemblyGammaPowerAxial3 dl 3 dr -12 void
-det 2 AssemblyGammaPowerAxial4 dl 4 dr -12 void
-det 2 AssemblyGammaPowerAxial5 dl 5 dr -12 void
-det 2 AssemblyGammaPowerAxial6 dl 6 dr -12 void
-det 2 AssemblyGammaPowerAxial7 dl 7 dr -12 void
-det 2 AssemblyGammaPowerAxial8 dl 8 dr -12 void
-det 2 AssemblyGammaPowerAxial9 dl 9 dr -12 void
+det AssemblyGammaPowerAxial1 2 dl 1 dr -12 void
+det AssemblyGammaPowerAxial2 2 dl 2 dr -12 void
+det AssemblyGammaPowerAxial3 2 dl 3 dr -12 void
+det AssemblyGammaPowerAxial4 2 dl 4 dr -12 void
+det AssemblyGammaPowerAxial5 2 dl 5 dr -12 void
+det AssemblyGammaPowerAxial6 2 dl 6 dr -12 void
+det AssemblyGammaPowerAxial7 2 dl 7 dr -12 void
+det AssemblyGammaPowerAxial8 2 dl 8 dr -12 void
+det AssemblyGammaPowerAxial9 2 dl 9 dr -12 void
 
 % --- turn on coupled neutron/photon transport
 set ngamma 2

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#SBATCH --job-name=BnB_explicit
+#SBATCH --job-name=BnB
 
 #SBATCH --output=BnB.o
 
