@@ -1292,7 +1292,7 @@ lat 10 2 0 0 37 37 19.4586
                                                                                                                                                 1066    1066    1066    1066    1066    1066    1066    1066    1066    1066    1066    1066    1066    1066    1066    1066    1066    1066    1066    1066    1066    1066    1066    1066    1066    1066    1066    1066    1066    1066    1066    1066    1066    1066    1066    1066    1066 
 
 % ################################################################################### //// ######## //// ####### 
-% ##################### Power distribution detector ################################# //// ######## //// ####### 
+% ##################### Power distribution detector integrated over materials ####### //// ######## //// ####### 
 % ################################################################################### //// ######## //// ####### 
 
 det PowerBatch1Axial1 dm Batch1Axial1 dr -8 void
@@ -1405,7 +1405,7 @@ det PowerBatch12Axial8 dm Batch12Axial8 dr -8 void
 det PowerBatch12Axial9 dm Batch12Axial9 dr -8 void
 
 % ################################################################################### //// ######## //// ####### 
-% ##################### Flux distribution detector ################################## //// ######## //// ####### 
+% ##################### Flux distribution detector integrated over materials ######## //// ######## //// ####### 
 % ################################################################################### //// ######## //// ####### 
 
 det FluxBatch1Axial1 dm Batch1Axial1
@@ -1517,8 +1517,22 @@ det FluxBatch12Axial7 dm Batch12Axial7
 det FluxBatch12Axial8 dm Batch12Axial8
 det FluxBatch12Axial9 dm Batch12Axial9
 
+% ################################################################################### //// ######## //// ####### 
+% ##################### Power distribution detector in each assembly ################ //// ######## //// ####### 
+% ################################################################################### //// ######## //// #######
+
+det AssemblyPowerAxial1 dl 1 dr -8 void
+det AssemblyPowerAxial2 dl 2 dr -8 void
+det AssemblyPowerAxial3 dl 3 dr -8 void
+det AssemblyPowerAxial4 dl 4 dr -8 void
+det AssemblyPowerAxial5 dl 5 dr -8 void
+det AssemblyPowerAxial6 dl 6 dr -8 void
+det AssemblyPowerAxial7 dl 7 dr -8 void
+det AssemblyPowerAxial8 dl 8 dr -8 void
+det AssemblyPowerAxial9 dl 9 dr -8 void
+
 % --- include material definitions in separate file
-include "B&B_nonfuel"    
+include "BnB_nonfuel"    
 
 % --- set data library locations
 set acelib "/global/home/groups/co_nuclear/serpent/xsdata_2/endfb7/sss_endfb7u.xsdata"
@@ -1548,7 +1562,7 @@ set inventory all
 
 % --- criticality settings
 set pop 5500 520 20
-include "B&B_mburn"
+include "BnB_mburn"
 
 % --- plotting
 plot 3 1000 1000 1.0
