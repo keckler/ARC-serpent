@@ -1575,7 +1575,7 @@ dep daystep 243.33333333333334 243.33333333333334 243.33333333333334
 set inventory all
 
 % --- criticality settings
-set pop 5500 520 20
+set pop 7000 520 20
 include "BnB_mburn"
 
 % --- plotting
