@@ -1546,6 +1546,7 @@ set ngamma 2
 
 % --- include material definitions in separate file
 include "BnB_nonfuel"    
+include "BnB_mburn"
 
 % --- set data library locations
 set acelib "/global/home/groups/co_nuclear/serpent/xsdata_2/endfb7/sss_endfb7u.xsdata" "/global/scratch/ckeckler/photon.xsdata"
@@ -1576,7 +1577,7 @@ set inventory all
 
 % --- criticality settings
 set pop 7000 520 20
-include "BnB_mburn"
+set his 1
 
 % --- plotting
 plot 3 1000 1000 1.0
