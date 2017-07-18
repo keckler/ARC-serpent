@@ -1568,7 +1568,6 @@ set xsfcut  1E-6
 
 % --- ???
 set pcc 0
-set nbuf 1000
 set printm 1
 
 % --- set depletion settings
