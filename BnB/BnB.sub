@@ -8,9 +8,9 @@
 
 #SBATCH --partition=savio
 
-#SBATCH --time=72:00:00
+#SBATCH --time=150:00:00
 
-#SBATCH --nodes=1
+#SBATCH --nodes=6
 
 # #SBATCH --ntasks-per-node=20
 
@@ -29,4 +29,4 @@
 
 # run command
 
-~/bin/sss2/sss2 BnB
+~/bin/sss2/sss2_mpi BnB -omp 20 -mpi 6
