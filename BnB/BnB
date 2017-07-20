@@ -1572,7 +1572,7 @@ set printm 1
 
 % --- set depletion settings
 dep daystep 243.33333333333334 243.33333333333334 243.33333333333334 
-set inventory all
+set inventory actinides lanthanides
 
 % --- criticality settings
 set pop 600000 520 20
