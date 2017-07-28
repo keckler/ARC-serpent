@@ -8,11 +8,13 @@
 
 #SBATCH --partition=savio
 
-#SBATCH --time=150:00:00
+#SBATCH --time=400:00:00
 
-#SBATCH --nodes=6
+#SBATCH --nodes=8
 
-# #SBATCH --ntasks-per-node=20
+#SBATCH --ntasks-per-node=10
+
+#SBATCH --cpus-per-task=2
 
 # QoS:
 
@@ -29,4 +31,4 @@
 
 # run command
 
-~/bin/sss2/sss2_mpi BnB -omp 20 -mpi 6
+mpirun ~/bin/sss2/sss2_mpi BnB
