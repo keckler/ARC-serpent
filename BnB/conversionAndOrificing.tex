@@ -71,6 +71,7 @@ This core design is suitable for the in-bounce-out shuffling scheme that this co
 \label{fig:BnB_layout}
 \end{figure}
 
+<<<<<<< HEAD
 For clarity of discussion in subsequent sections, the shuffling scheme for the core in terms of the batch numbers depicted in Figure \ref{fig:BnB_layout} is depicted below in Figure \ref{fig:residenceTime}.
 The core uses a in-bounce-out shuffling pattern, which causes unique power distribution characteristics, outlined in Section \ref{sec:power}.
 
@@ -88,6 +89,10 @@ The impact of these sorts of changes is expected to be small, as the flux near t
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Power profile and reactor characteristics} \label{sec:power}
+=======
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Power profile and reactor characteristics}
+>>>>>>> 632224bf43a40cd30e13cdf05603720396f1f0b1
 
 Once the core layout was specified, the model was run with Serpent2 to obtain the power profile on an assembly basis.
 This is done by utilizing the mesh-tally functionality of the code.
@@ -129,7 +134,11 @@ This is a considerable amount, and requires a large computational effort for eac
 
 Once this was determined, a full coupled neutron-gamma transport calculation with burnup over the cycle was performed.
 The two year burn cycle was divided into 4 equal-length steps to later examine how the power profile changes over the cycle, as this can be substantial in B\&B designs.
+<<<<<<< HEAD
 The radial power profiles from these calculations are presented in Figures \ref{fig:BnB_0}-\ref{fig:BnB_3}.
+=======
+The results of these calculations are presented in Figures \ref{fig:BnB_0}-\ref{fig:BnB_3}.
+>>>>>>> 632224bf43a40cd30e13cdf05603720396f1f0b1
 
 \begin{figure}[h!]
 \includegraphics[width=16cm]{BnB_0}
@@ -177,6 +186,7 @@ EOEC      & 730              & 3.0                   & 1.37                  \\ 
 \end{tabular}
 \end{table}
 
+<<<<<<< HEAD
 During the burn cycle, the axial power profile in each batch also changes.
 Figure \ref{fig:axialProfile} shows the axial power profile divided into 24 axial bins in each fuel batch at each point in the equilibrium cycle.
 The axial power profile varies substantially from batch to batch, with the axial peaking factor ranging from a low of 2.34 in batch 5 at EOEC to a high of 3.18 in batch 1 at MOEC1.
@@ -204,6 +214,8 @@ At this point, the fuel becomes a net neutron sink once again.
 \label{fig:axialProfile}
 \end{figure}
 
+=======
+>>>>>>> 632224bf43a40cd30e13cdf05603720396f1f0b1
 The impact of gamma heating can be seen clearly in the control assemblies, which contain no fissionable material, but still manage to produce over 40 kW in some assemblies at various points in the cycle.
 This is more than many of the outer blanket assemblies, and is clearly non-negligible for safety analysis.
 
@@ -215,7 +227,11 @@ This large power increase makes it difficult to design an orifice that can effic
 
 This same phenomenon causes the reported radial power peaking factors in Table \ref{tab:power_profile} to be somewhat misleading, as the concept of peaking factor implies a distribution of powers centered about some mean value.
 Although the radial peaking factors are around 3 for the duration of the cycle, in actuality the power profile is quite bimodal, with a very large amount of assemblies at low powers in the kilowatt range and a smaller amount clustered at higher powers in the megawatt range. 
+<<<<<<< HEAD
 This bimodality is depicted in Figure \ref{fig:bimodality}, where the mean assembly power level is 6.8 MW.
+=======
+This bimodality is depicted in Figure \ref{fig:bimodality}, where the mean assembly power level at each burn step is ...
+>>>>>>> 632224bf43a40cd30e13cdf05603720396f1f0b1
 
 \begin{figure}[h!]
 \includegraphics[width=18cm]{bimodality}
@@ -224,6 +240,7 @@ This bimodality is depicted in Figure \ref{fig:bimodality}, where the mean assem
 \label{fig:bimodality}
 \end{figure}
 
+<<<<<<< HEAD
 The evolution of $k_{eff}$ over the burn cycle is depicted in Figure \ref{fig:keff}, alongside the $k_{eff}$ evolution from the r-z model of the same core.
 The difference between the two models is as high as 830 pcm during the burn cycle, with the r-z cylinder model consistently higher than the hexagonal model.
 The fact that the cylinder model predicts higher $k_{eff}$ than the hexagonal model is in line with results reported by Heidet in \cite{heidet_thesis}.
@@ -239,6 +256,17 @@ Furthermore, this supports the assumption that the additional assemblies include
 Although Figure \ref{fig:keff} indicates that at BOEC the core is not quite critical, for the purposes of this study no effort is made to resolve this issue.
 It is assumed that the reactor criticality at BOEC can be easily increased through a variety of simple changes which will have minimal impact on the reactor safety response (i.e. increasing reflector thickness, using slightly less depleted uranium as starter fuel, etc.).
 Furthermore, because the reactor has a breeding ratio of above 1.0, at no other point in the burn cycle is the reactor subcritical.
+=======
+The evolution of $k_{eff}$ over the burn cycle is depicted in Figure %\ref{fig:keff}, alongside the $k_{eff}$ evolution from the r-z model of the same core.
+... complete...
+
+%\begin{figure}[h!]
+%\includegraphics[width=10cm]{keff}
+%\centering
+%\caption{Evolution of $k_{eff}$ over the equilibrium cycle as calculated with both the hexagonal and the simplified r-z transport models.}
+%\label{fig:keff}
+%\end{figure}
+>>>>>>> 632224bf43a40cd30e13cdf05603720396f1f0b1
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Orificing}
@@ -255,6 +283,7 @@ With the power profile established, an orificing strategy for the core can then 
 In order to accomplish this task, the optimization code ORFS \cite{ORFS} is utilized to obtain an orificing that conforms to the following constraints:
 
 \begin{enumerate}
+<<<<<<< HEAD
 \item \label{list:Toutmax} $T_{out, max} \leq 555$ C
 \item \label{list:Toutmixed} $T_{out, mean} = 510 \pm 5$ C
 \item \label{list:dPmax} $\Delta p_{max} \leq 1$ MPa
@@ -275,6 +304,15 @@ The goal for the TerraPower design is to limit the outlet temperature difference
 The limit imposed on the B\&B design of the current study is taken to be 10 C higher than the TerraPower limit for power producing zones, although much lower than the peripheral zone limit.
 Further tightening this constraint leads to issues with convergence of the optimization procedure with the current core design, although further aspects of this are discussed below.
 
+=======
+\item $T_{out, max} \leq 655$ C
+\item $T_{out, mean} = 510 \pm 5$ C
+\item $\Delta p_{max} \leq 1$ MPa
+\item $v_{max} \leq 12$ m/s
+\item $\Delta T_{out, adjacent} \leq 70$ C
+\end{enumerate}
+
+>>>>>>> 632224bf43a40cd30e13cdf05603720396f1f0b1
 To gather the assemblies into orifice groups, logarithmic spacing into 28 groups is utilized.
 With fewer groups, the problem becomes infeasible due to the constraint on temperature difference between adjacent assemblies.
 In reality, with differences of up to 60 C between adjacent assemblies, significant heat transfer will occur between the assemblies causing the assembly outlet temperatures to be somewhat of an average, although this is not accounted for in the ORFS optimization process. 
@@ -285,6 +323,7 @@ Both of these aspects lead to the current optimization constraints being more re
 A relaxation of these constraints could lead to the problem being feasible for a smaller number of orifice groups or to smaller temperature gradients between adjacent assemblies, but this issue is not investigated further due to the fact that current results for orifice groupings are in line with the goals of other reactor designs \cite{terrapower}.
 
 After feeding the power profile and aforementioned constraints to ORFS, the code attempts to minimize the variance in outlet coolant temperatures by allocating flow to each assembly, including control and reflector assemblies.
+<<<<<<< HEAD
 The optimized flow allocation in each assembly is given in Figure \ref{fig:BnB_flow}, where each of the 28 orifice zones can be picked out.
 The outlet temperature results of this optimization procedure are given in Figures \ref{fig:BnB_0_temp}-\ref{fig:BnB_3_temp}, and Table \ref{tab:orificing} contains information relevant to the limiting temperatures.
 
@@ -294,6 +333,9 @@ The outlet temperature results of this optimization procedure are given in Figur
 \caption{Flow allocated for each assembly of the 3500 MWth B\&B core for the equilibrium cycle as optimized by ORFS. Flowrates are given in kg/s, and assemblies listed with 0.00 kg/s are not considered in the optimization due to their extremely low power.}
 \label{fig:BnB_flow}
 \end{figure}
+=======
+The general results of this optimization procedure are given in Figures \ref{fig:BnB_0_temp}-\ref{fig:BnB_3_temp} and Table \ref{tab:orificing}.
+>>>>>>> 632224bf43a40cd30e13cdf05603720396f1f0b1
 
 \begin{figure}[h!]
 \includegraphics[width=16cm]{BnB_0_temp}
@@ -341,7 +383,10 @@ The maximum outlet temperature as calculated from the simple model in ORFS occur
 In the optimization, the constraint on maximum outlet temperature at EOEC is tight, along with the constraints on the lower bound for the mean outlet temperature for all burn steps.
 None of the constraints are tight at any point during the equilibrium cycle.
 Therefore, the overall limiting period of the burn is at EOEC, and this is the core state that should be studied the most heavily during the safety analysis. 
+<<<<<<< HEAD
 This choice is additionally supported by the fact that the core is at its most reactive state at EOEC, as shown in Figure \ref{fig:keff}, meaning that the potential consequences of a rod withdrawal are likely the most severe at this burn step.
+=======
+>>>>>>> 632224bf43a40cd30e13cdf05603720396f1f0b1
 The peak inner cladding temperature, which should be used as the limiting factor for the orifice determination in a metal fueled core, has not yet been accurately quantified.
 It is planned that this will be quantified during the actual safety analysis with SAS, and if required, the orificing will be iterated to achieve a suitable peak inner clad temperature.
 
@@ -401,10 +446,14 @@ J. E. Seifried, P. M. Gorman, J. L. Vujic, and E. Greenspan. Accelerated Equilib
 M. B. Chadwick, M. Herman, P. Oblozinsky, et al., "ENDF/B-VII.1 nuclear data for science and technology: Cross sections, covariances, fission product yields and decay data", Nuclear Data Sheets, 112(12):2887-2996 (2011).
 
 \bibitem{mcplib}
+<<<<<<< HEAD
 https://mcnp.lanl.gov/BUGS/la-ur-12-00018\_mcw.pdf
 
 \bibitem{linearBnB_petroski}
 R. Petroski, B. Forget, C. Forsberg, "Neutronic characteristics of linear-assembly breed-and-burn reactors," Nuclear Engineering and Design, Vol 250, 2012.
+=======
+$https://mcnp.lanl.gov/BUGS/la-ur-12-00018_mcw.pdf$
+>>>>>>> 632224bf43a40cd30e13cdf05603720396f1f0b1
 
 \bibitem{ORFS}
 C. Keckler, "A Simplified Model for Optimal Assembly Orificing in an SFR through Convex Optimization," Internal report, 2017.
