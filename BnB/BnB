@@ -3127,7 +3127,17 @@ set inventory all
 set pop 600000 520 20
 set his 1
 
+% --- memory optimization
 set opti 1
+
+% --- perturbation settings
+sens resp keff 1
+sens pert matlist all
+sens pert zailist all
+sens pert xs all
+sens opt egrid pertgrid
+
+ene pertgrid 1 1E-10 1E3
 
 % --- plotting
 plot 3 1000 1000 1.0
