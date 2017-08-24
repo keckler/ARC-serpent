@@ -3139,6 +3139,9 @@ sens opt egrid pertgrid
 
 ene pertgrid 1 1E-10 1E3
 
+% --- print cross sections
+set xsplot 1000 1E-3 1E1
+
 % --- plotting
 plot 3 1000 1000 1.0
 plot 3 1000 1000 6.0
