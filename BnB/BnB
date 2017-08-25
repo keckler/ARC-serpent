@@ -3118,6 +3118,7 @@ set xsfcut  1E-6
 set pcc 0
 set printm 1
 set nbuf 8
+set rfw yes binaryRestart
 
 % --- set depletion settings
 dep daystep 243.33333333333334 243.33333333333334 243.33333333333334 
@@ -3131,13 +3132,13 @@ set his 1
 set opti 1
 
 % --- perturbation settings
-sens resp keff 1
-sens pert matlist all
-sens pert zailist all
-sens pert xs all
-sens opt egrid pertgrid
+%sens resp keff 1
+%sens pert matlist all
+%sens pert zailist all
+%sens pert xs all
+%sens opt egrid pertgrid
 
-ene pertgrid 1 1E-10 1E3
+%ene pertgrid 1 1E-10 1E3
 
 % --- print cross sections
 set xsplot 1000 1E-3 1E1
