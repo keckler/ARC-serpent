@@ -3124,7 +3124,7 @@ dep daystep 243.33333333333334 243.33333333333334 243.33333333333334
 set inventory all
 
 % --- criticality settings
-set pop 20000 78000 40 1 40 40
+set pop 20000 78000 500 1 40 40
 set his 1
 
 % --- memory optimization
