@@ -6,25 +6,25 @@
 
 #SBATCH --error=BnB.error
 
-#SBATCH --partition=savio
+#SBATCH --partition=savio2
 
-#SBATCH --time=400:00:00
+#SBATCH --time=72:00:00
 
 #SBATCH --nodes=8
 
-#SBATCH --ntasks-per-node=10
+#SBATCH --ntasks-per-node=14
 
 #SBATCH --cpus-per-task=2
 
 # QoS:
 
-#SBATCH --qos=nuclear_savio_normal
+#SBATCH --qos=savio_normal
 
 #
 
 # Account:
 
-#SBATCH -A co_nuclear
+#SBATCH -A fc_neutronics
 
 #SBATCH --mail-user=keckler@berkeley.edu
 #SBATCH --mail-type=all
