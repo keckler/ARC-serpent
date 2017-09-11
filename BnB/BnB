@@ -3221,9 +3221,7 @@ set xsfcut  1E-6
 % --- ???
 set pcc 0
 set printm 1
-set nbuf 8
-
-% --- print restart files
+set nbuf 15 100
 set rfw yes binaryRestart
 
 % --- set depletion settings
@@ -3231,7 +3229,7 @@ dep daystep 243.33333333333334 243.33333333333334 243.33333333333334
 set inventory all
 
 % --- criticality settings
-set pop 600000 520 20
+set pop 600000 520 20 1 40 40
 set his 1
 
 % --- memory optimization
@@ -3240,7 +3238,7 @@ set opti 1
 % --- perturbation settings
 %sens resp keff 1
 %sens pert matlist all
-%sens pert zailist all
+%sens pert zailist 110230
 %sens pert xs all
 %sens opt egrid pertgrid
 
