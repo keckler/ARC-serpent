@@ -1,0 +1,182 @@
+##    ________________________________
+##    |                              |
+##    |    ______ _____  _  _____    |
+##    |   |  ____|  __ \(_)/ ____|   |
+##    |   | |__  | |  | |_| (___     |
+##    |   |  __| | |  | | |\___ \    |
+##    |   | |____| |__| | |____) |   |
+##    |   |______|_____/|_|_____/    |
+##    |                              |
+##    |    August 2013               |
+##    |______________________________|
+##    |                              |
+##    |    E: staffanq@gmail.com     |
+##    |______________________________|
+##    
+##    
+##    Checking the user settings...
+##    OK.
+##    
+##    Identifying the Serpent input file...
+##    OK.
+##    
+##    Checking for source normalization...
+##    OK.
+##    
+##    Checking for burnable materials...
+##    OK.
+##    
+##    Checking material printing settings...
+##    OK.
+##    
+##    Checking depletion settings...
+##    OK.
+##    
+##    Checking nuclide inventory...
+##    
+##    Analyzing shuffling scheme...
+##    OK.
+##    
+##    Checking burnable volumes...
+##    OK.
+##
+##    Preparing for STAGE-1 conditioning...
+##         - Adjusting neutron population
+##         - Switching off predictor/corrector
+##         - Adjusting buffer size
+##
+##    RUNNING STAGE-1 ANALYSIS
+##
+##    - STAGE-1 iteration 1 of 40 (finished in 24 minutes and 33 seconds) - 
+##    - STAGE-1 iteration 2 of 40 (finished in 26 minutes and 38 seconds) - 
+##    - STAGE-1 iteration 3 of 40 (finished in 27 minutes and 9 seconds) - 
+##    - STAGE-1 iteration 4 of 40 (finished in 27 minutes and 5 seconds) - 
+##    - STAGE-1 iteration 5 of 40 (finished in 27 minutes and 30 seconds) - 
+##    - STAGE-1 iteration 6 of 40 (finished in 27 minutes and 58 seconds) - 
+##    - STAGE-1 iteration 7 of 40 (finished in 27 minutes and 45 seconds) - 
+##    - STAGE-1 iteration 8 of 40 (finished in 27 minutes and 24 seconds) - 
+##    - STAGE-1 iteration 9 of 40 (finished in 27 minutes and 26 seconds) - 
+##    - STAGE-1 iteration 10 of 40 (finished in 27 minutes and 17 seconds) - 
+##    - STAGE-1 iteration 11 of 40 (finished in 27 minutes and 24 seconds) - 
+##    - STAGE-1 iteration 12 of 40 (finished in 27 minutes and 18 seconds) - 
+##    - STAGE-1 iteration 13 of 40 (finished in 27 minutes and 22 seconds) - 
+##    - STAGE-1 iteration 14 of 40 (finished in 27 minutes and 13 seconds) - 
+##    - STAGE-1 iteration 15 of 40 (finished in 27 minutes and 15 seconds) - 
+##    - STAGE-1 iteration 16 of 40 (finished in 27 minutes and 18 seconds) - 
+##    - STAGE-1 iteration 17 of 40 (finished in 27 minutes and 24 seconds) - 
+##    - STAGE-1 iteration 18 of 40 (finished in 27 minutes and 20 seconds) - 
+##    - STAGE-1 iteration 19 of 40 (finished in 27 minutes and 13 seconds) - 
+##    - STAGE-1 iteration 20 of 40 (finished in 27 minutes and 18 seconds) - 
+##    - STAGE-1 iteration 21 of 40 (finished in 27 minutes and 14 seconds) - 
+##    - STAGE-1 iteration 22 of 40 (finished in 27 minutes and 20 seconds) - 
+##    - STAGE-1 iteration 23 of 40 (finished in 27 minutes and 13 seconds) - 
+##    - STAGE-1 iteration 24 of 40 (finished in 27 minutes and 17 seconds) - 
+##    - STAGE-1 iteration 25 of 40 (finished in 27 minutes and 11 seconds) - 
+##    - STAGE-1 iteration 26 of 40 (finished in 27 minutes and 16 seconds) - 
+##    - STAGE-1 iteration 27 of 40 (finished in 27 minutes and 16 seconds) - 
+##    - STAGE-1 iteration 28 of 40 (finished in 27 minutes and 20 seconds) - 
+##    - STAGE-1 iteration 29 of 40 (finished in 27 minutes and 15 seconds) - 
+##    - STAGE-1 iteration 30 of 40 (finished in 27 minutes and 13 seconds) - 
+##    - STAGE-1 iteration 31 of 40 (finished in 27 minutes and 13 seconds) - 
+##    - STAGE-1 iteration 32 of 40 (finished in 27 minutes and 17 seconds) - 
+##    - STAGE-1 iteration 33 of 40 (finished in 27 minutes and 17 seconds) - 
+##    - STAGE-1 iteration 34 of 40 (finished in 27 minutes and 15 seconds) - 
+##    - STAGE-1 iteration 35 of 40 (finished in 27 minutes and 19 seconds) - 
+##    - STAGE-1 iteration 36 of 40 (finished in 27 minutes and 40 seconds) - 
+##    - STAGE-1 iteration 37 of 40 (finished in 27 minutes and 16 seconds) - 
+##    - STAGE-1 iteration 38 of 40 (finished in 27 minutes and 22 seconds) - 
+##    - STAGE-1 iteration 39 of 40 (finished in 27 minutes and 10 seconds) - 
+##    - STAGE-1 iteration 40 of 40 (finished in 27 minutes and 16 seconds) - 
+##    
+##    ---------------------------------------------------------------
+##    STAGE-1 conditioning complete in 18 hours, 10 minutes and 35 seconds
+##    ---------------------------------------------------------------
+##    
+##    Preparing for STAGE-2 conditioning...
+##         - Adjusting neutron population
+##         - Switching off predictor/corrector
+##         - Adjusting buffer size
+##
+##    RUNNING STAGE-2 ANALYSIS
+##
+##    - STAGE-2 iteration 41 of 112 (finished in 1 hour, 10 minutes and 32 seconds) - 
+##    
+##    Largest k_eff discrepancy is 0.00% at burnup step 3
+##    Largest material discrepancy is U-238 in zone Batch4Axial4, error is 0.00%
+##    
+///----------------------------------------------------------------------///
+|                                                                       
+|     System reached target convergence in 19 hours, 21 minutes and 8 seconds
+|                                                                     
+|     Eq. cycle time was set at 730 days
+|     Fuel residence time is 24 years and 0 days
+|                                                                     
+|     Min/max cycle k_eff is 1.00881 / 1.04776
+|     Error in min. k_eff compared to target is 2.06%
+|                                                                       
+|     Positive burnup reactivity swing, increasing cycle length
+|     Cycle time changed from 730.0 days to 912.5 days
+|                                                                         
+|     Starting a new STAGE-1 eq. cycle run with the updated cycle time    
+|                                                                           
+///----------------------------------------------------------------------///
+##    
+##    - STAGE-1 iteration 1 of 40 (finished in 27 minutes and 18 seconds) - 
+##    - STAGE-1 iteration 2 of 40 (finished in 27 minutes and 54 seconds) - 
+##    - STAGE-1 iteration 3 of 40 (finished in 27 minutes and 29 seconds) - 
+##    
+##    Largest k_eff discrepancy is 0.70% at burnup step 1
+##    Largest material discrepancy is U-238 in zone Batch5Axial5, error is 1.89%
+##    
+##    - STAGE-1 iteration 4 of 40 (finished in 27 minutes and 43 seconds) - 
+##    
+##    Largest k_eff discrepancy is 0.41% at burnup step 2
+##    Largest material discrepancy is U-238 in zone Batch5Axial5, error is 1.19%
+##    
+##    - STAGE-1 iteration 5 of 40 (finished in 27 minutes and 32 seconds) - 
+##    
+##    Largest k_eff discrepancy is 0.13% at burnup step 1
+##    Largest material discrepancy is U-238 in zone Batch3Axial6, error is 0.86%
+##    
+///----------------------------------------------------------------------///
+|                                                                       
+|     System reached target convergence in 2 hours, 18 minutes and 4 seconds
+|                                                                     
+|     Eq. cycle time was set at 912 days
+|     Fuel residence time is 30 years and 0 days
+|                                                                     
+|     Min/max cycle k_eff is 1.02954 / 1.05979
+|     Error in min. k_eff compared to target is 0.04%
+|                                                                       
+|     2nd run, eq. cycle time of 912.5 days had a min. k_eff of 1.02954
+|     Aiming at critical eq. cycle at a cycle of around 917 days
+|                                                                         
+|     Starting a new STAGE-1 eq. cycle run with the updated cycle time
+|
+///----------------------------------------------------------------------///
+##    
+##    - STAGE-1 iteration 1 of 40 (finished in 27 minutes and 34 seconds) - 
+##    - STAGE-1 iteration 2 of 40 (finished in 27 minutes and 34 seconds) - 
+##    - STAGE-1 iteration 3 of 40 (finished in 27 minutes and 41 seconds) - 
+##    
+##    Largest k_eff discrepancy is 0.20% at burnup step 3
+##    Largest material discrepancy is U-238 in zone Batch3Axial5, error is 0.36%
+##    
+///----------------------------------------------------------------------///
+|                                                                       
+|     System reached target convergence in 1 hour, 22 minutes and 53 seconds
+|                                                                     
+|     Eq. cycle time was set at 917 days
+|     Fuel residence time is 30 years and 49 days
+|                                                                     
+|     Min/max cycle k_eff is 1.03297 / 1.05996
+|     Error in min. k_eff compared to target is 0.29%
+|                                                                       
+|     Total calculation time was 23 hours, 2 minutes and 10 seconds
+|                                                                         
+|     To improve results, use better statistics, tighter convergence criteria
+|     and more burnup steps!
+|     
+|     Thank you for using EDIS! (Every day I'm shuffling!)
+|
+///----------------------------------------------------------------------///
