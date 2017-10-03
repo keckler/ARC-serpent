@@ -3139,72 +3139,72 @@ lat 25 2 0 0 39 39 18.9
 % ##################### Power distribution detector in each assembly ################ //// ######## //// ####### 
 % ################################################################################### //// ######## //// #######
 
-%det AssemblyPowerAxial1 n dl 1 dr -8 void
-%det AssemblyPowerAxial2 n dl 2 dr -8 void
-%det AssemblyPowerAxial3 n dl 3 dr -8 void
-%det AssemblyPowerAxial4 n dl 4 dr -8 void
-%det AssemblyPowerAxial5 n dl 5 dr -8 void
-%det AssemblyPowerAxial6 n dl 6 dr -8 void
-%det AssemblyPowerAxial7 n dl 7 dr -8 void
-%det AssemblyPowerAxial8 n dl 8 dr -8 void
-%det AssemblyPowerAxial9 n dl 9 dr -8 void
-%det AssemblyPowerAxial10 n dl 10 dr -8 void
-%det AssemblyPowerAxial11 n dl 11 dr -8 void
-%det AssemblyPowerAxial12 n dl 12 dr -8 void
-%det AssemblyPowerAxial13 n dl 13 dr -8 void
-%det AssemblyPowerAxial14 n dl 14 dr -8 void
-%det AssemblyPowerAxial15 n dl 15 dr -8 void
-%det AssemblyPowerAxial16 n dl 16 dr -8 void
-%det AssemblyPowerAxial17 n dl 17 dr -8 void
-%det AssemblyPowerAxial18 n dl 18 dr -8 void
-%det AssemblyPowerAxial19 n dl 19 dr -8 void
-%det AssemblyPowerAxial20 n dl 20 dr -8 void
-%det AssemblyPowerAxial21 n dl 21 dr -8 void
-%det AssemblyPowerAxial22 n dl 22 dr -8 void
-%det AssemblyPowerAxial23 n dl 23 dr -8 void
-%det AssemblyPowerAxial24 n dl 24 dr -8 void
+det AssemblyPowerAxial1 n dl 1 dr -8 void
+det AssemblyPowerAxial2 n dl 2 dr -8 void
+det AssemblyPowerAxial3 n dl 3 dr -8 void
+det AssemblyPowerAxial4 n dl 4 dr -8 void
+det AssemblyPowerAxial5 n dl 5 dr -8 void
+det AssemblyPowerAxial6 n dl 6 dr -8 void
+det AssemblyPowerAxial7 n dl 7 dr -8 void
+det AssemblyPowerAxial8 n dl 8 dr -8 void
+det AssemblyPowerAxial9 n dl 9 dr -8 void
+det AssemblyPowerAxial10 n dl 10 dr -8 void
+det AssemblyPowerAxial11 n dl 11 dr -8 void
+det AssemblyPowerAxial12 n dl 12 dr -8 void
+det AssemblyPowerAxial13 n dl 13 dr -8 void
+det AssemblyPowerAxial14 n dl 14 dr -8 void
+det AssemblyPowerAxial15 n dl 15 dr -8 void
+det AssemblyPowerAxial16 n dl 16 dr -8 void
+det AssemblyPowerAxial17 n dl 17 dr -8 void
+det AssemblyPowerAxial18 n dl 18 dr -8 void
+det AssemblyPowerAxial19 n dl 19 dr -8 void
+det AssemblyPowerAxial20 n dl 20 dr -8 void
+det AssemblyPowerAxial21 n dl 21 dr -8 void
+det AssemblyPowerAxial22 n dl 22 dr -8 void
+det AssemblyPowerAxial23 n dl 23 dr -8 void
+det AssemblyPowerAxial24 n dl 24 dr -8 void
 
-%det AssemblyGammaPowerAxial1 p dl 1 dr -12 void
-%det AssemblyGammaPowerAxial2 p dl 2 dr -12 void
-%det AssemblyGammaPowerAxial3 p dl 3 dr -12 void
-%det AssemblyGammaPowerAxial4 p dl 4 dr -12 void
-%det AssemblyGammaPowerAxial5 p dl 5 dr -12 void
-%det AssemblyGammaPowerAxial6 p dl 6 dr -12 void
-%det AssemblyGammaPowerAxial7 p dl 7 dr -12 void
-%det AssemblyGammaPowerAxial8 p dl 8 dr -12 void
-%det AssemblyGammaPowerAxial9 p dl 9 dr -12 void
-%det AssemblyGammaPowerAxial10 p dl 10 dr -12 void
-%det AssemblyGammaPowerAxial11 p dl 11 dr -12 void
-%det AssemblyGammaPowerAxial12 p dl 12 dr -12 void
-%det AssemblyGammaPowerAxial13 p dl 13 dr -12 void
-%det AssemblyGammaPowerAxial14 p dl 14 dr -12 void
-%det AssemblyGammaPowerAxial15 p dl 15 dr -12 void
-%det AssemblyGammaPowerAxial16 p dl 16 dr -12 void
-%det AssemblyGammaPowerAxial17 p dl 17 dr -12 void
-%det AssemblyGammaPowerAxial18 p dl 18 dr -12 void
-%det AssemblyGammaPowerAxial19 p dl 19 dr -12 void
-%det AssemblyGammaPowerAxial20 p dl 20 dr -12 void
-%det AssemblyGammaPowerAxial21 p dl 21 dr -12 void
-%det AssemblyGammaPowerAxial22 p dl 22 dr -12 void
-%det AssemblyGammaPowerAxial23 p dl 23 dr -12 void
-%det AssemblyGammaPowerAxial24 p dl 24 dr -12 void
+det AssemblyGammaPowerAxial1 p dl 1 dr -12 void
+det AssemblyGammaPowerAxial2 p dl 2 dr -12 void
+det AssemblyGammaPowerAxial3 p dl 3 dr -12 void
+det AssemblyGammaPowerAxial4 p dl 4 dr -12 void
+det AssemblyGammaPowerAxial5 p dl 5 dr -12 void
+det AssemblyGammaPowerAxial6 p dl 6 dr -12 void
+det AssemblyGammaPowerAxial7 p dl 7 dr -12 void
+det AssemblyGammaPowerAxial8 p dl 8 dr -12 void
+det AssemblyGammaPowerAxial9 p dl 9 dr -12 void
+det AssemblyGammaPowerAxial10 p dl 10 dr -12 void
+det AssemblyGammaPowerAxial11 p dl 11 dr -12 void
+det AssemblyGammaPowerAxial12 p dl 12 dr -12 void
+det AssemblyGammaPowerAxial13 p dl 13 dr -12 void
+det AssemblyGammaPowerAxial14 p dl 14 dr -12 void
+det AssemblyGammaPowerAxial15 p dl 15 dr -12 void
+det AssemblyGammaPowerAxial16 p dl 16 dr -12 void
+det AssemblyGammaPowerAxial17 p dl 17 dr -12 void
+det AssemblyGammaPowerAxial18 p dl 18 dr -12 void
+det AssemblyGammaPowerAxial19 p dl 19 dr -12 void
+det AssemblyGammaPowerAxial20 p dl 20 dr -12 void
+det AssemblyGammaPowerAxial21 p dl 21 dr -12 void
+det AssemblyGammaPowerAxial22 p dl 22 dr -12 void
+det AssemblyGammaPowerAxial23 p dl 23 dr -12 void
+det AssemblyGammaPowerAxial24 p dl 24 dr -12 void
 
 % ################################################################################### //// ######## //// ####### 
 % ##################### Set options ################################################# //// ######## //// ####### 
 % ################################################################################### //// ######## //// #######
 
 % --- turn on coupled neutron/photon transport
-%set ngamma 2
+set ngamma 2
 
 % --- include material definitions in separate file
 include "BnB_nonfuel"    
 include "BnB_mburn"
 
 % --- set data library locations
-set acelib "/global/home/groups/co_nuclear/serpent/xsdata_2/endfb7/sss_endfb7u.xsdata" % "/global/scratch/ckeckler/photon.xsdata"
+set acelib "/global/home/groups/co_nuclear/serpent/xsdata_2/endfb7/sss_endfb7u.xsdata" "/global/scratch/ckeckler/photon.xsdata"
 set declib "/global/home/groups/co_nuclear/serpent/xsdata_2/endfb7/sss_endfb7.dec"
 set nfylib "/global/home/groups/co_nuclear/serpent/xsdata_2/endfb7/sss_endfb7.nfy"
-%set pdatadir "/global/home/groups/co_nuclear/serpent/photon_data"
+set pdatadir "/global/home/groups/co_nuclear/serpent/photon_data"
 
 % --- set burn power
 set power 3500000000.0
@@ -3225,7 +3225,7 @@ set nbuf 8
 %set rfw yes binaryRestart
 
 % --- set depletion settings
-dep daystep 243.33333333333334 243.33333333333334 243.33333333333334 
+dep daystep 305.516 305.516 305.516  
 set inventory all
 
 % --- criticality settings
