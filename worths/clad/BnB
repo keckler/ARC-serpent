@@ -3229,7 +3229,7 @@ set nbuf 8
 %set inventory all
 
 % --- criticality settings
-set pop 600000 520 20 1 40 40
+set pop 600000 8000 20 1 40 40
 set his 1
 
 % --- memory optimization
