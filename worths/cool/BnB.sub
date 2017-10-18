@@ -10,11 +10,11 @@
 
 #SBATCH --time=72:00:00
 
-#SBATCH --nodes=1
+#SBATCH --nodes=4
 
-#SBATCH --ntasks-per-node=28
+#SBATCH --ntasks-per-node=1
 
-#SBATCH --cpus-per-task=1
+#SBATCH --cpus-per-task=20
 
 # QoS:
 
@@ -31,4 +31,4 @@
 
 # run command
 
-~/bin/sss2/sss2_mpi -omp 28 BnB
+mpirun -np 4 --map-by ppr:1:node:pe=20 sss2 -omp 20 BnB
