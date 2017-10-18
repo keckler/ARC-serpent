@@ -3198,13 +3198,13 @@ lat 25 2 0 0 39 39 18.9
 
 % --- include material definitions in separate file
 include "BnB_nonfuel_CR_25"    
-include "BnB_mburn"
+include "BnB.bumat3"
 
 % --- set data library locations
-set acelib "/global/home/groups/co_nuclear/serpent/xsdata_2/endfb7/sss_endfb7u.xsdata" % "/global/scratch/ckeckler/photon.xsdata"
+set acelib "/global/home/groups/co_nuclear/serpent/xsdata_2/endfb7/sss_endfb7u.xsdata" "/global/scratch/ckeckler/photon.xsdata"
 set declib "/global/home/groups/co_nuclear/serpent/xsdata_2/endfb7/sss_endfb7.dec"
 set nfylib "/global/home/groups/co_nuclear/serpent/xsdata_2/endfb7/sss_endfb7.nfy"
-%set pdatadir "/global/home/groups/co_nuclear/serpent/photon_data"
+set pdatadir "/global/home/groups/co_nuclear/serpent/photon_data"
 
 % --- set burn power
 set power 3500000000.0
@@ -3225,7 +3225,7 @@ set nbuf 8
 %set rfw yes binaryRestart
 
 % --- set depletion settings
-%dep daystep 243.33333333333334 243.33333333333334 243.33333333333334 
+%dep daystep 305.516 305.516 305.516  
 %set inventory all
 
 % --- criticality settings
