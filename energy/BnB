@@ -3228,7 +3228,7 @@ det 10_18Energy n dm Batch10Axial18 de spectrumGrid
 det 11_18Energy n dm Batch11Axial18 de spectrumGrid
 det 12_18Energy n dm Batch12Axial18 de spectrumGrid
 
-ene spectrumGrid 3 100000 1E-6 1E2
+ene spectrumGrid 3 1000 1E-4 1E1
 
 % ################################################################################### //// ######## //// ####### 
 % ##################### Set options ################################################# //// ######## //// ####### 
