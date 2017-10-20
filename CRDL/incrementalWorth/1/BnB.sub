@@ -1,0 +1,34 @@
+#!/bin/sh
+
+#SBATCH --job-name=inc1
+
+#SBATCH --output=BnB.o
+
+#SBATCH --error=BnB.error
+
+#SBATCH --partition=savio2
+
+#SBATCH --time=72:00:00
+
+#SBATCH --nodes=1
+
+#SBATCH --ntasks-per-node=28
+
+#SBATCH --cpus-per-task=1
+
+# QoS:
+
+#SBATCH --qos=savio_normal
+
+#
+
+# Account:
+
+#SBATCH -A fc_neutronics
+
+#SBATCH --mail-user=keckler@berkeley.edu
+#SBATCH --mail-type=all
+
+# run command
+
+~/bin/sss2/sss2_mpi -omp 28 BnB
