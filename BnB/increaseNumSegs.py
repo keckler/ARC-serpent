@@ -11,7 +11,7 @@ for line in fb:
     if matFlag == 1:
         #read isotope name and fraction
         try:
-            isotope = line.split()[0]
+            isotope = line.split()[0][:-4]
             if isotope not in batch2segment2isotope2frac[batch][segment].keys():
                 batch2segment2isotope2frac[batch][segment][isotope] = float(line.split()[1])
             else:
@@ -89,7 +89,7 @@ for batch in batch2segment2isotope2frac.keys():
             fn.write('mat Batch'+str(batch)+'Axial'+str(segment)+' '+str(batch2segment2density[batch][newMat2oldMat[segment][0]])+' burn 1 vol '+str(vol)+'\n')
             for isotope in batch2segment2isotope2frac[batch][newMat2oldMat[segment][0]].keys():
                 frac = batch2segment2isotope2frac[batch][newMat2oldMat[segment][0]][isotope]
-                fn.write('    '+isotope+' '+str(frac)+'\n')
+                fn.write('    '+isotope+'.06c '+str(frac)+'\n')
         else:
             dens = 0
             for oldMat in newMat2oldMat[segment]:
@@ -99,7 +99,7 @@ for batch in batch2segment2isotope2frac.keys():
             for isotope in batch2segment2isotope2frac[batch][newMat2oldMat[segment][0]].keys():
                 try:
                     frac = (batch2segment2isotope2frac[batch][newMat2oldMat[segment][0]][isotope] + batch2segment2isotope2frac[batch][newMat2oldMat[segment][1]][isotope])/2
-                    fn.write('    '+isotope+' '+str(frac)+'\n')
+                    fn.write('    '+isotope+'.06c '+str(frac)+'\n')
                 except KeyError:
                     print('*warning: isotope '+isotope+' not being transferred in batch '+str(batch)+' from segment '+str(newMat2oldMat[segment][0])+' to segment '+str(segment))
 

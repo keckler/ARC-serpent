@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#SBATCH --job-name=BnB
+#SBATCH --job-name=BnB1
 
 #SBATCH --output=BnB.o
 
@@ -10,11 +10,11 @@
 
 #SBATCH --time=400:00:00
 
-#SBATCH --nodes=8
+#SBATCH --nodes=4
 
-#SBATCH --ntasks-per-node=10
+#SBATCH --ntasks-per-node=1
 
-#SBATCH --cpus-per-task=2
+#SBATCH --cpus-per-task=20
 
 # QoS:
 
@@ -30,5 +30,6 @@
 #SBATCH --mail-type=all
 
 # run command
+setenv OMP_NUM_THREAD 20
 
-mpirun ~/bin/sss2/sss2_mpi BnB
+mpirun -np 4 --map-by ppr:1:node:pe=20 ~/bin/sss2/sss2_mpi -omp 20 BnB
