@@ -11770,3 +11770,199 @@ k-eff (collision) = 1.04089 +/- 0.00007  [1.04076  1.04103]
 
 (O1) (MPI=1) (OMP=28) 
 ------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.29 -- Static criticality source simulation
+
+Input file: "BnB" 
+
+Active cycle  511 / 520  Source neutrons : 598608
+
+Running time :                  8:23:53
+Estimated running time :        8:32:24
+Estimated running time left :   0:08:30
+
+Estimated relative CPU usage :  2759.1%
+
+k-eff (analog)    = 1.04088 +/- 0.00006  [1.04075  1.04101]
+k-eff (collision) = 1.04089 +/- 0.00007  [1.04076  1.04103]
+
+(O1) (MPI=1) (OMP=28) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.29 -- Static criticality source simulation
+
+Input file: "BnB" 
+
+Active cycle  512 / 520  Source neutrons : 602479
+
+Running time :                  8:24:50
+Estimated running time :        8:32:24
+Estimated running time left :   0:07:33
+
+Estimated relative CPU usage :  2759.2%
+
+k-eff (analog)    = 1.04088 +/- 0.00006  [1.04075  1.04101]
+k-eff (collision) = 1.04089 +/- 0.00007  [1.04076  1.04103]
+
+(O1) (MPI=1) (OMP=28) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.29 -- Static criticality source simulation
+
+Input file: "BnB" 
+
+Active cycle  513 / 520  Source neutrons : 597902
+
+Running time :                  8:25:47
+Estimated running time :        8:32:24
+Estimated running time left :   0:06:37
+
+Estimated relative CPU usage :  2759.2%
+
+k-eff (analog)    = 1.04088 +/- 0.00006  [1.04075  1.04101]
+k-eff (collision) = 1.04089 +/- 0.00007  [1.04076  1.04103]
+
+(O1) (MPI=1) (OMP=28) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.29 -- Static criticality source simulation
+
+Input file: "BnB" 
+
+Active cycle  514 / 520  Source neutrons : 601469
+
+Running time :                  8:26:43
+Estimated running time :        8:32:24
+Estimated running time left :   0:05:40
+
+Estimated relative CPU usage :  2759.3%
+
+k-eff (analog)    = 1.04088 +/- 0.00006  [1.04075  1.04101]
+k-eff (collision) = 1.04089 +/- 0.00007  [1.04076  1.04103]
+
+(O1) (MPI=1) (OMP=28) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.29 -- Static criticality source simulation
+
+Input file: "BnB" 
+
+Active cycle  515 / 520  Source neutrons : 598418
+
+Running time :                  8:27:40
+Estimated running time :        8:32:24
+Estimated running time left :   0:04:43
+
+Estimated relative CPU usage :  2757.4%
+
+k-eff (analog)    = 1.04088 +/- 0.00006  [1.04075  1.04101]
+k-eff (collision) = 1.04089 +/- 0.00007  [1.04076  1.04103]
+
+(O1) (MPI=1) (OMP=28) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.29 -- Static criticality source simulation
+
+Input file: "BnB" 
+
+Active cycle  516 / 520  Source neutrons : 601988
+
+Running time :                  8:28:37
+Estimated running time :        8:32:24
+Estimated running time left :   0:03:46
+
+Estimated relative CPU usage :  2758.8%
+
+k-eff (analog)    = 1.04088 +/- 0.00006  [1.04075  1.04101]
+k-eff (collision) = 1.04089 +/- 0.00007  [1.04076  1.04103]
+
+(O1) (MPI=1) (OMP=28) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.29 -- Static criticality source simulation
+
+Input file: "BnB" 
+
+Active cycle  517 / 520  Source neutrons : 599614
+
+Running time :                  8:29:34
+Estimated running time :        8:32:24
+Estimated running time left :   0:02:50
+
+Estimated relative CPU usage :  2759.0%
+
+k-eff (analog)    = 1.04088 +/- 0.00006  [1.04075  1.04101]
+k-eff (collision) = 1.04089 +/- 0.00007  [1.04076  1.04103]
+
+(O1) (MPI=1) (OMP=28) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.29 -- Static criticality source simulation
+
+Input file: "BnB" 
+
+Active cycle  518 / 520  Source neutrons : 600498
+
+Running time :                  8:30:30
+Estimated running time :        8:32:24
+Estimated running time left :   0:01:53
+
+Estimated relative CPU usage :  2759.1%
+
+k-eff (analog)    = 1.04088 +/- 0.00006  [1.04075  1.04101]
+k-eff (collision) = 1.04089 +/- 0.00007  [1.04076  1.04103]
+
+(O1) (MPI=1) (OMP=28) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.29 -- Static criticality source simulation
+
+Input file: "BnB" 
+
+Active cycle  519 / 520  Source neutrons : 599864
+
+Running time :                  8:31:27
+Estimated running time :        8:32:24
+Estimated running time left :   0:00:56
+
+Estimated relative CPU usage :  2758.9%
+
+k-eff (analog)    = 1.04088 +/- 0.00006  [1.04075  1.04101]
+k-eff (collision) = 1.04089 +/- 0.00007  [1.04076  1.04103]
+
+(O1) (MPI=1) (OMP=28) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.29 -- Static criticality source simulation
+
+Input file: "BnB" 
+
+Active cycle  520 / 520  Source neutrons : 598870
+
+Running time :                  8:32:24
+Estimated running time :        8:32:24
+Estimated running time left :   0:00:00
+
+Estimated relative CPU usage :  2757.1%
+
+k-eff (analog)    = 1.04082 +/- 0.00008  [1.04067  1.04098]
+k-eff (collision) = 1.04083 +/- 0.00009  [1.04065  1.04100]
+
+(O1) (MPI=1) (OMP=28) 
+------------------------------------------------------------
+
+Transport cycle completed in 8.51 hours.
+
+Calculating activities...
+OK.
+
