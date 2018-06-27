@@ -230,8 +230,7 @@ set ttacut  1E-18
 set xsfcut  1E-6
 
 set pcc 0
-set nbuf 1000
-set pop 50000 420 30
+set pop 100000 420 30
 
 set inventory all
 
