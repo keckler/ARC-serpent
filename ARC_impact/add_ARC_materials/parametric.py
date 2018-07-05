@@ -29,6 +29,7 @@ for svf in steelVolFracs:
                 
                 npins_ARC = 3
                 npins = 169 #total number of pins
+                nassperbatch = 41 #number of assemblies in each batch
                 
                 newFuelFrac = 1.-(float(npins_ARC)/npins) #i.e. how many fuel pins are replaced by ARC tubes
                 minVolFrac = 0.1 #smallest volume fraction you want to use
@@ -36,8 +37,16 @@ for svf in steelVolFracs:
                 pinInnerRadius = 0.54976 #cm
                 systemTemp = (510+355)/2. #average temperature of ARC system for density calcs, C
                 systemPressure = 0.8E6 #Pa
-                solubility = 0.0 #0.0034 #w/o Li in K, in FRACTION
-                enrichment = 0.0 #0.9 #w/o in Li6 over Li7, in FRACTION
+                solubility = {'1' : 0.0,
+                              '2' : 0.0, 
+                              '3' : 0.0,
+                              '4' : 0.0,
+                              '5' : 0.0,
+                              '6' : 0.0,
+                              '7' : 0.0,
+                              '8' : 0.0,
+                              '9' : 0.0} #w/o Li in K, in FRACTION
+                enrichment = 0.9 #w/o in Li6 over Li7, in FRACTION
                 
                 steel = {28000 : 0.500/100,
                          24000 : 12.00/100,
@@ -78,13 +87,14 @@ for svf in steelVolFracs:
                 fb2.write('% fuel fraction is '+str(newFuelFrac)+' of nominal case\n')
                 fb2.write('% vol fracs in ARC pins:\n')
                 fb2.write('%     steel = '+str(steelVolFrac)+' expander = '+str(expanderVolFrac)+' inert gas = '+str(inertVolFrac)+'\n')
+                fb2.write('% Li enrichment is '+str(enrichment)+'\n')
                 fb2.write('\n')
                 
                 #####
                 # do stuff
                 #####
                 
-                vol = npins_ARC*3.14159*pinInnerRadius**2
+                vol = nassperbatch*npins_ARC*3.14159*pinInnerRadius**2
                 
                 prevLine = None
                 for line in fb:
@@ -93,15 +103,16 @@ for svf in steelVolFracs:
                             matName = prevLine.split()[1]
                             matDens = float(prevLine.split()[2])
                             matVolu = prevLine.split()[6]
+                            matAxia = matName[-1]
                             fb2.write('mat '+matName+' sum burn 1 vol '+matVolu+'\n')
                             for iso in steel:
                                 fb2.write('    '+str(iso)+'.09c -'+str(steel[iso]*steelVolFrac*steelDensity*vol/float(matVolu))+'\n')
                             for iso in expander:
-                                fb2.write('    '+str(iso)+'.09c -'+str(expander[iso]*expanderVolFrac*expanderDensity*(1-solubility)*vol/float(matVolu))+'\n')
+                                fb2.write('    '+str(iso)+'.09c -'+str(expander[iso]*expanderVolFrac*expanderDensity*(1-solubility[matAxia])*vol/float(matVolu))+'\n')
                             for iso in inert:
                                 fb2.write('    '+str(iso)+'.09c -'+str(inert[iso]*inertVolFrac*inertDensity*vol/float(matVolu))+'\n')
                             for iso in absorber:
-                                fb2.write('    '+str(iso)+'.09c -'+str(absorber[iso]*expanderVolFrac*expanderDensity*solubility*vol/float(matVolu))+'\n')
+                                fb2.write('    '+str(iso)+'.09c -'+str(absorber[iso]*expanderVolFrac*expanderDensity*solubility[matAxia]*vol/float(matVolu))+'\n')
                             flag = 0
                         else:
                             isotope = int(prevLine.split()[0][0:-4])
