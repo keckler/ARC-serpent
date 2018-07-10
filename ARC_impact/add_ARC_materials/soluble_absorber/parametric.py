@@ -8,6 +8,11 @@ steelVolFracs = [0.1]#[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8]
 expanderVolFracs = [0.8]#[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8]
 inertVolFracs = [0.1]#[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8]
 
+inletTemp = 355
+outletTemp = 510
+systemTemp = (inletTemp+outletTemp)/2. #average temperature of ARC system for density calcs, C
+systemPressure = 0.8E6 #Pa
+
 for svf in steelVolFracs:
     for evf in expanderVolFracs:
         for ivf in inertVolFracs:
@@ -33,20 +38,28 @@ for svf in steelVolFracs:
                 
                 newFuelFrac = 1.-(float(npins_ARC)/npins) #i.e. how many fuel pins are replaced by ARC tubes
                 minVolFrac = 0.1 #smallest volume fraction you want to use
+
+                T = systemTemp
+                P = systemPressure
+                steelDensity =  7.75 #density at room temp from x_prop.py file of ADOPT #(7824 - 9.288E-5*(T+273) - 0.1859*(T+273)**2)*1000/100/100/100 #mass density
+                expanderDensity = 0.8415 - 2.172E-4*T - 2.70E-8*T**2 + 4.77E-12*T**3 #mass density from ARC paper
+                expanderLowerDensity = 0.8415 - 2.172E-4*inletTemp - 2.70E-8*inletTemp**2 + 4.77E-12*inletTemp**3 #mass density from ARC paper
+                inertDensity = 4.002*P/8.314/(T+273)/100/100/100 #mass density, PV=nRT
                 
                 pinInnerRadius = 0.54976 #cm
-                systemTemp = (510+355)/2. #average temperature of ARC system for density calcs, C
-                systemPressure = 0.8E6 #Pa
-                solubility = {'1' : 1.40E-1,
-                              '2' : 1.42E-1, 
-                              '3' : 1.55E-1,
-                              '4' : 2.09E-1,
-                              '5' : 2.90E-1,
-                              '6' : 3.93E-1,
-                              '7' : 4.93E-1,
-                              '8' : 5.23E-1,
-                              '9' : 5.30E-1} #w/o Li in K, in FRACTION
-                enrichment = 0.9 #w/o in Li6 over Li7, in FRACTION
+                L = 300 #cm
+                C1 = -(0.0082*expanderLowerDensity)*0.19/L
+                C2 = (0.0082*expanderLowerDensity)*0.19
+                solubility = {'1' : C1*((1-1)*L/9+(L/9/2))+C2,
+                              '2' : C1*((2-1)*L/9+(L/9/2))+C2,
+                              '3' : C1*((3-1)*L/9+(L/9/2))+C2,
+                              '4' : C1*((4-1)*L/9+(L/9/2))+C2,
+                              '5' : C1*((5-1)*L/9+(L/9/2))+C2,
+                              '6' : C1*((6-1)*L/9+(L/9/2))+C2,
+                              '7' : C1*((7-1)*L/9+(L/9/2))+C2,
+                              '8' : C1*((8-1)*L/9+(L/9/2))+C2,
+                              '9' : C1*((9-1)*L/9+(L/9/2))+C2} #w/o Li in K, in FRACTION
+                enrichment = 1.0 #w/o in Li6 over Li7, in FRACTION
                 
                 steel = {28000 : 0.500/100,
                          24000 : 12.00/100,
@@ -61,16 +74,6 @@ for svf in steelVolFracs:
                 inert = {2000 : 1.0}
                 absorber = {3006 : enrichment,
                             3007 : 1-enrichment} #weight fracs
-                
-                #####
-                # preprocessing
-                #####
-                
-                T = systemTemp
-                P = systemPressure
-                steelDensity =  7.75 #density at room temp from x_prop.py file of ADOPT #(7824 - 9.288E-5*(T+273) - 0.1859*(T+273)**2)*1000/100/100/100 #mass density
-                expanderDensity = 0.8415 - 2.172E-4*T - 2.70E-8*T**2 + 4.77E-12*T**3 #mass density from ARC paper
-                inertDensity = 4.002*P/8.314/(T+273)/100/100/100 #mass density, PV=nRT
                 
                 #####
                 # checks
