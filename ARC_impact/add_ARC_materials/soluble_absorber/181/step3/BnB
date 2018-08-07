@@ -210,9 +210,9 @@ cell outxradial   0 outside  systembottom  -systemtop    radialsystem
 % ##################### XS-paths #################################################### //// ######## //// ####### 
 % ################################################################################### //// ######## //// ####### 
 
-set acelib "/global/home/groups/co_nuclear/serpent/xsdata_2/endfb7/sss_endfb7u.xsdata"
-set declib "/global/home/groups/co_nuclear/serpent/xsdata_2/endfb7/sss_endfb7.dec"
-set nfylib "/global/home/groups/co_nuclear/serpent/xsdata_2/endfb7/sss_endfb7.nfy"
+set acelib "/global/home/groups/co_nuclear/serpent/xsdata_2/jeff31/sss_jeff31u.xsdata"
+set declib "/global/home/groups/co_nuclear/serpent/xsdata_2/jeff31/sss_jeff31.dec"
+set nfylib "/global/home/groups/co_nuclear/serpent/xsdata_2/jeff31/sss_jeff31.nfy"
 
 % ################################################################################### //// ######## //// ####### 
 % ##################### Power ####################################################### //// ######## //// ####### 
