@@ -9,7 +9,7 @@ tube_radius = 0.75; %cm
 tube_length = 300; %cm
 vol_li_per_ass = 2 * pi*tube_radius^2*tube_length; %2x just to be conservative
 ndens_li = 5.0103E22; %atoms/cm^3
-halflife = 112.32; %years
+halflife = 12.32; %years
 lambda = 0.693/halflife/365.25/24/60/60; %1/s
 
 trit_prod = 0; %Ci/yr
@@ -18,7 +18,9 @@ for i = 1:nsteps
     for j = 1:length(DETflux(:,1))
         if mod(j,naxial) == 1
             flux = DETflux(j,11);
-            trit_prod = trit_prod + flux*xs*ndens_li*cyclelength/nsteps*365.25*24*60*60*vol_li_per_ass*lambda*nassperbatch/3.7E10;
+            trit_prod = trit_prod + flux*xs*ndens_li*cyclelength/nsteps*365.25*24*60*60*vol_li_per_ass*lambda*nassperbatch/3.7E10/cyclelength;
         end
     end
 end
+
+trit_prod
