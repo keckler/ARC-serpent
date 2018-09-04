@@ -245,3 +245,5 @@ det sigma n dm Batch1Axial1 dm Batch1Axial2 dm Batch1Axial3 dm Batch1Axial4 dm B
 det belowcoreshieldflux n dc lowershieldcell dv 777202.0
 
 det belowshieldflux n dn 1 0. 222.437 1 0. 360. 1 -115. -15. 10 dv 1.554E6
+
+det belowshieldsigma n dn 1 0. 222.437 1 0. 360. 1 -115. -15. 10 dv 1.554E6 dr 101 lithium

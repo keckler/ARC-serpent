@@ -109,7 +109,7 @@ mat belowcorecoolantmat -0.86589 rgb  242 242 242
 %                                                                            
 % ######################################################                     
 
-mat lowershieldmat -2.85196 rgb  133 37 37  
+mat lowershieldmat -2.85196 rgb  133 37 37 burn 1 vol 777202.0
 5010.06c  -2.80265e-01     % Shield isotope (B4C) 
 5011.06c  -3.42392e-02     % Shield isotope (B4C) 
 6000.06c  -8.71613e-02     % Shield isotope (B4C) 
