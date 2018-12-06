@@ -1,0 +1,241 @@
+% ################################################################################### //// ######## //// ####### 
+% ##################### Axial surfaces ############################################## //// ######## //// ####### 
+% ################################################################################### //// ######## //// ####### 
+
+surf systembottom      pz -100.00      % Bottom level of the modeled system                   
+surf lowershield       pz 0.00000      % Bottom of lower shield                               
+surf fuelaxial1        pz 5.0000      % Bottom of fueled region    - top of lower gas plenum     
+surf fuelaxial2        pz 38.333      % Top of fuel axial level 1/9
+surf fuelaxial3        pz 71.667      % Top of fuel axial level 2/9
+surf fuelaxial4        pz 105.000      % Top of fuel axial level 3/9
+surf fuelaxial5        pz 138.333      % Top of fuel axial level 4/9
+surf fuelaxial6        pz 171.667      % Top of fuel axial level 5/9
+surf fuelaxial7        pz 205.000      % Top of fuel axial level 6/9
+surf fuelaxial8        pz 238.333      % Top of fuel axial level 7/9
+surf fuelaxial9        pz 271.667      % Top of fuel axial level 8/9
+surf fuelaxial10        pz 305.000      % Top of fuel axial level 9/9
+surf upperreflector    pz 315.000      % Bottom of upper reflector - top of the upper gas plenum 
+surf systemtop         pz 415.000      % Top of the modeled system  
+
+% ################################################################################### //// ######## //// ####### 
+% ##################### Radial surfaces ############################################# //// ######## //// ####### 
+% ################################################################################### //// ######## //// ####### 
+
+surf fuelradial1       cyl 0.0 0.0 64.212       % Radial fuel zone (batch) 1/12
+surf fuelradial2       cyl 0.0 0.0 90.810       % Radial fuel zone (batch) 2/12
+surf fuelradial3       cyl 0.0 0.0 111.219       % Radial fuel zone (batch) 3/12
+surf fuelradial4       cyl 0.0 0.0 128.424       % Radial fuel zone (batch) 4/12
+surf fuelradial5       cyl 0.0 0.0 143.583       % Radial fuel zone (batch) 5/12
+surf fuelradial6       cyl 0.0 0.0 157.287       % Radial fuel zone (batch) 6/12
+surf fuelradial7       cyl 0.0 0.0 169.889       % Radial fuel zone (batch) 7/12
+surf fuelradial8       cyl 0.0 0.0 181.619       % Radial fuel zone (batch) 8/12
+surf fuelradial9       cyl 0.0 0.0 192.636       % Radial fuel zone (batch) 9/12
+surf fuelradial10       cyl 0.0 0.0 203.056       % Radial fuel zone (batch) 10/12
+surf fuelradial11       cyl 0.0 0.0 212.967       % Radial fuel zone (batch) 11/12
+surf fuelradial12       cyl 0.0 0.0 222.437       % Radial fuel zone (batch) 12/12
+surf radialreflector   cyl 0.0 0.0 244.492       % Radial reflector 
+surf radialshield      cyl 0.0 0.0 266.547       % Radial shield 
+surf radialsystem      cyl 0.0 0.0 366.547       % Radial total system 
+
+% ################################################################################### //// ######## //// ####### 
+% ##################### Lower axial cells ########################################### //// ######## //// ####### 
+% ################################################################################### //// ######## //// ####### 
+
+cell belowcorecoolantcell 0 belowcorecoolantmat -radialsystem systembottom -lowershield 
+cell lowershieldcell      0 lowershieldmat      -fuelradial12  lowershield    -fuelaxial1 
+
+% ################################################################################### //// ######## //// ####### 
+% ##################### Core cells ################################################## //// ######## //// ####### 
+% ################################################################################### //// ######## //// ####### 
+
+cell Batch1Axial1 0 Batch1Axial1             -fuelradial1 fuelaxial1 -fuelaxial2     % Batch: 1/12, Axial: 1/9
+cell Batch1Axial2 0 Batch1Axial2             -fuelradial1 fuelaxial2 -fuelaxial3     % Batch: 1/12, Axial: 2/9
+cell Batch1Axial3 0 Batch1Axial3             -fuelradial1 fuelaxial3 -fuelaxial4     % Batch: 1/12, Axial: 3/9
+cell Batch1Axial4 0 Batch1Axial4             -fuelradial1 fuelaxial4 -fuelaxial5     % Batch: 1/12, Axial: 4/9
+cell Batch1Axial5 0 Batch1Axial5             -fuelradial1 fuelaxial5 -fuelaxial6     % Batch: 1/12, Axial: 5/9
+cell Batch1Axial6 0 Batch1Axial6             -fuelradial1 fuelaxial6 -fuelaxial7     % Batch: 1/12, Axial: 6/9
+cell Batch1Axial7 0 Batch1Axial7             -fuelradial1 fuelaxial7 -fuelaxial8     % Batch: 1/12, Axial: 7/9
+cell Batch1Axial8 0 Batch1Axial8             -fuelradial1 fuelaxial8 -fuelaxial9     % Batch: 1/12, Axial: 8/9
+cell Batch1Axial9 0 Batch1Axial9             -fuelradial1 fuelaxial9 -fuelaxial10     % Batch: 1/12, Axial: 9/9
+cell Batch2Axial1 0 Batch2Axial1 fuelradial1 -fuelradial2 fuelaxial1 -fuelaxial2     % Batch: 2/12, Axial: 1/9
+cell Batch2Axial2 0 Batch2Axial2 fuelradial1 -fuelradial2 fuelaxial2 -fuelaxial3     % Batch: 2/12, Axial: 2/9
+cell Batch2Axial3 0 Batch2Axial3 fuelradial1 -fuelradial2 fuelaxial3 -fuelaxial4     % Batch: 2/12, Axial: 3/9
+cell Batch2Axial4 0 Batch2Axial4 fuelradial1 -fuelradial2 fuelaxial4 -fuelaxial5     % Batch: 2/12, Axial: 4/9
+cell Batch2Axial5 0 Batch2Axial5 fuelradial1 -fuelradial2 fuelaxial5 -fuelaxial6     % Batch: 2/12, Axial: 5/9
+cell Batch2Axial6 0 Batch2Axial6 fuelradial1 -fuelradial2 fuelaxial6 -fuelaxial7     % Batch: 2/12, Axial: 6/9
+cell Batch2Axial7 0 Batch2Axial7 fuelradial1 -fuelradial2 fuelaxial7 -fuelaxial8     % Batch: 2/12, Axial: 7/9
+cell Batch2Axial8 0 Batch2Axial8 fuelradial1 -fuelradial2 fuelaxial8 -fuelaxial9     % Batch: 2/12, Axial: 8/9
+cell Batch2Axial9 0 Batch2Axial9 fuelradial1 -fuelradial2 fuelaxial9 -fuelaxial10     % Batch: 2/12, Axial: 9/9
+cell Batch3Axial1 0 Batch3Axial1 fuelradial2 -fuelradial3 fuelaxial1 -fuelaxial2     % Batch: 3/12, Axial: 1/9
+cell Batch3Axial2 0 Batch3Axial2 fuelradial2 -fuelradial3 fuelaxial2 -fuelaxial3     % Batch: 3/12, Axial: 2/9
+cell Batch3Axial3 0 Batch3Axial3 fuelradial2 -fuelradial3 fuelaxial3 -fuelaxial4     % Batch: 3/12, Axial: 3/9
+cell Batch3Axial4 0 Batch3Axial4 fuelradial2 -fuelradial3 fuelaxial4 -fuelaxial5     % Batch: 3/12, Axial: 4/9
+cell Batch3Axial5 0 Batch3Axial5 fuelradial2 -fuelradial3 fuelaxial5 -fuelaxial6     % Batch: 3/12, Axial: 5/9
+cell Batch3Axial6 0 Batch3Axial6 fuelradial2 -fuelradial3 fuelaxial6 -fuelaxial7     % Batch: 3/12, Axial: 6/9
+cell Batch3Axial7 0 Batch3Axial7 fuelradial2 -fuelradial3 fuelaxial7 -fuelaxial8     % Batch: 3/12, Axial: 7/9
+cell Batch3Axial8 0 Batch3Axial8 fuelradial2 -fuelradial3 fuelaxial8 -fuelaxial9     % Batch: 3/12, Axial: 8/9
+cell Batch3Axial9 0 Batch3Axial9 fuelradial2 -fuelradial3 fuelaxial9 -fuelaxial10     % Batch: 3/12, Axial: 9/9
+cell Batch4Axial1 0 Batch4Axial1 fuelradial3 -fuelradial4 fuelaxial1 -fuelaxial2     % Batch: 4/12, Axial: 1/9
+cell Batch4Axial2 0 Batch4Axial2 fuelradial3 -fuelradial4 fuelaxial2 -fuelaxial3     % Batch: 4/12, Axial: 2/9
+cell Batch4Axial3 0 Batch4Axial3 fuelradial3 -fuelradial4 fuelaxial3 -fuelaxial4     % Batch: 4/12, Axial: 3/9
+cell Batch4Axial4 0 Batch4Axial4 fuelradial3 -fuelradial4 fuelaxial4 -fuelaxial5     % Batch: 4/12, Axial: 4/9
+cell Batch4Axial5 0 Batch4Axial5 fuelradial3 -fuelradial4 fuelaxial5 -fuelaxial6     % Batch: 4/12, Axial: 5/9
+cell Batch4Axial6 0 Batch4Axial6 fuelradial3 -fuelradial4 fuelaxial6 -fuelaxial7     % Batch: 4/12, Axial: 6/9
+cell Batch4Axial7 0 Batch4Axial7 fuelradial3 -fuelradial4 fuelaxial7 -fuelaxial8     % Batch: 4/12, Axial: 7/9
+cell Batch4Axial8 0 Batch4Axial8 fuelradial3 -fuelradial4 fuelaxial8 -fuelaxial9     % Batch: 4/12, Axial: 8/9
+cell Batch4Axial9 0 Batch4Axial9 fuelradial3 -fuelradial4 fuelaxial9 -fuelaxial10     % Batch: 4/12, Axial: 9/9
+cell Batch5Axial1 0 Batch5Axial1 fuelradial4 -fuelradial5 fuelaxial1 -fuelaxial2     % Batch: 5/12, Axial: 1/9
+cell Batch5Axial2 0 Batch5Axial2 fuelradial4 -fuelradial5 fuelaxial2 -fuelaxial3     % Batch: 5/12, Axial: 2/9
+cell Batch5Axial3 0 Batch5Axial3 fuelradial4 -fuelradial5 fuelaxial3 -fuelaxial4     % Batch: 5/12, Axial: 3/9
+cell Batch5Axial4 0 Batch5Axial4 fuelradial4 -fuelradial5 fuelaxial4 -fuelaxial5     % Batch: 5/12, Axial: 4/9
+cell Batch5Axial5 0 Batch5Axial5 fuelradial4 -fuelradial5 fuelaxial5 -fuelaxial6     % Batch: 5/12, Axial: 5/9
+cell Batch5Axial6 0 Batch5Axial6 fuelradial4 -fuelradial5 fuelaxial6 -fuelaxial7     % Batch: 5/12, Axial: 6/9
+cell Batch5Axial7 0 Batch5Axial7 fuelradial4 -fuelradial5 fuelaxial7 -fuelaxial8     % Batch: 5/12, Axial: 7/9
+cell Batch5Axial8 0 Batch5Axial8 fuelradial4 -fuelradial5 fuelaxial8 -fuelaxial9     % Batch: 5/12, Axial: 8/9
+cell Batch5Axial9 0 Batch5Axial9 fuelradial4 -fuelradial5 fuelaxial9 -fuelaxial10     % Batch: 5/12, Axial: 9/9
+cell Batch6Axial1 0 Batch6Axial1 fuelradial5 -fuelradial6 fuelaxial1 -fuelaxial2     % Batch: 6/12, Axial: 1/9
+cell Batch6Axial2 0 Batch6Axial2 fuelradial5 -fuelradial6 fuelaxial2 -fuelaxial3     % Batch: 6/12, Axial: 2/9
+cell Batch6Axial3 0 Batch6Axial3 fuelradial5 -fuelradial6 fuelaxial3 -fuelaxial4     % Batch: 6/12, Axial: 3/9
+cell Batch6Axial4 0 Batch6Axial4 fuelradial5 -fuelradial6 fuelaxial4 -fuelaxial5     % Batch: 6/12, Axial: 4/9
+cell Batch6Axial5 0 Batch6Axial5 fuelradial5 -fuelradial6 fuelaxial5 -fuelaxial6     % Batch: 6/12, Axial: 5/9
+cell Batch6Axial6 0 Batch6Axial6 fuelradial5 -fuelradial6 fuelaxial6 -fuelaxial7     % Batch: 6/12, Axial: 6/9
+cell Batch6Axial7 0 Batch6Axial7 fuelradial5 -fuelradial6 fuelaxial7 -fuelaxial8     % Batch: 6/12, Axial: 7/9
+cell Batch6Axial8 0 Batch6Axial8 fuelradial5 -fuelradial6 fuelaxial8 -fuelaxial9     % Batch: 6/12, Axial: 8/9
+cell Batch6Axial9 0 Batch6Axial9 fuelradial5 -fuelradial6 fuelaxial9 -fuelaxial10     % Batch: 6/12, Axial: 9/9
+cell Batch7Axial1 0 Batch7Axial1 fuelradial6 -fuelradial7 fuelaxial1 -fuelaxial2     % Batch: 7/12, Axial: 1/9
+cell Batch7Axial2 0 Batch7Axial2 fuelradial6 -fuelradial7 fuelaxial2 -fuelaxial3     % Batch: 7/12, Axial: 2/9
+cell Batch7Axial3 0 Batch7Axial3 fuelradial6 -fuelradial7 fuelaxial3 -fuelaxial4     % Batch: 7/12, Axial: 3/9
+cell Batch7Axial4 0 Batch7Axial4 fuelradial6 -fuelradial7 fuelaxial4 -fuelaxial5     % Batch: 7/12, Axial: 4/9
+cell Batch7Axial5 0 Batch7Axial5 fuelradial6 -fuelradial7 fuelaxial5 -fuelaxial6     % Batch: 7/12, Axial: 5/9
+cell Batch7Axial6 0 Batch7Axial6 fuelradial6 -fuelradial7 fuelaxial6 -fuelaxial7     % Batch: 7/12, Axial: 6/9
+cell Batch7Axial7 0 Batch7Axial7 fuelradial6 -fuelradial7 fuelaxial7 -fuelaxial8     % Batch: 7/12, Axial: 7/9
+cell Batch7Axial8 0 Batch7Axial8 fuelradial6 -fuelradial7 fuelaxial8 -fuelaxial9     % Batch: 7/12, Axial: 8/9
+cell Batch7Axial9 0 Batch7Axial9 fuelradial6 -fuelradial7 fuelaxial9 -fuelaxial10     % Batch: 7/12, Axial: 9/9
+cell Batch8Axial1 0 Batch8Axial1 fuelradial7 -fuelradial8 fuelaxial1 -fuelaxial2     % Batch: 8/12, Axial: 1/9
+cell Batch8Axial2 0 Batch8Axial2 fuelradial7 -fuelradial8 fuelaxial2 -fuelaxial3     % Batch: 8/12, Axial: 2/9
+cell Batch8Axial3 0 Batch8Axial3 fuelradial7 -fuelradial8 fuelaxial3 -fuelaxial4     % Batch: 8/12, Axial: 3/9
+cell Batch8Axial4 0 Batch8Axial4 fuelradial7 -fuelradial8 fuelaxial4 -fuelaxial5     % Batch: 8/12, Axial: 4/9
+cell Batch8Axial5 0 Batch8Axial5 fuelradial7 -fuelradial8 fuelaxial5 -fuelaxial6     % Batch: 8/12, Axial: 5/9
+cell Batch8Axial6 0 Batch8Axial6 fuelradial7 -fuelradial8 fuelaxial6 -fuelaxial7     % Batch: 8/12, Axial: 6/9
+cell Batch8Axial7 0 Batch8Axial7 fuelradial7 -fuelradial8 fuelaxial7 -fuelaxial8     % Batch: 8/12, Axial: 7/9
+cell Batch8Axial8 0 Batch8Axial8 fuelradial7 -fuelradial8 fuelaxial8 -fuelaxial9     % Batch: 8/12, Axial: 8/9
+cell Batch8Axial9 0 Batch8Axial9 fuelradial7 -fuelradial8 fuelaxial9 -fuelaxial10     % Batch: 8/12, Axial: 9/9
+cell Batch9Axial1 0 Batch9Axial1 fuelradial8 -fuelradial9 fuelaxial1 -fuelaxial2     % Batch: 9/12, Axial: 1/9
+cell Batch9Axial2 0 Batch9Axial2 fuelradial8 -fuelradial9 fuelaxial2 -fuelaxial3     % Batch: 9/12, Axial: 2/9
+cell Batch9Axial3 0 Batch9Axial3 fuelradial8 -fuelradial9 fuelaxial3 -fuelaxial4     % Batch: 9/12, Axial: 3/9
+cell Batch9Axial4 0 Batch9Axial4 fuelradial8 -fuelradial9 fuelaxial4 -fuelaxial5     % Batch: 9/12, Axial: 4/9
+cell Batch9Axial5 0 Batch9Axial5 fuelradial8 -fuelradial9 fuelaxial5 -fuelaxial6     % Batch: 9/12, Axial: 5/9
+cell Batch9Axial6 0 Batch9Axial6 fuelradial8 -fuelradial9 fuelaxial6 -fuelaxial7     % Batch: 9/12, Axial: 6/9
+cell Batch9Axial7 0 Batch9Axial7 fuelradial8 -fuelradial9 fuelaxial7 -fuelaxial8     % Batch: 9/12, Axial: 7/9
+cell Batch9Axial8 0 Batch9Axial8 fuelradial8 -fuelradial9 fuelaxial8 -fuelaxial9     % Batch: 9/12, Axial: 8/9
+cell Batch9Axial9 0 Batch9Axial9 fuelradial8 -fuelradial9 fuelaxial9 -fuelaxial10     % Batch: 9/12, Axial: 9/9
+cell Batch10Axial1 0 Batch10Axial1 fuelradial9 -fuelradial10 fuelaxial1 -fuelaxial2     % Batch: 10/12, Axial: 1/9
+cell Batch10Axial2 0 Batch10Axial2 fuelradial9 -fuelradial10 fuelaxial2 -fuelaxial3     % Batch: 10/12, Axial: 2/9
+cell Batch10Axial3 0 Batch10Axial3 fuelradial9 -fuelradial10 fuelaxial3 -fuelaxial4     % Batch: 10/12, Axial: 3/9
+cell Batch10Axial4 0 Batch10Axial4 fuelradial9 -fuelradial10 fuelaxial4 -fuelaxial5     % Batch: 10/12, Axial: 4/9
+cell Batch10Axial5 0 Batch10Axial5 fuelradial9 -fuelradial10 fuelaxial5 -fuelaxial6     % Batch: 10/12, Axial: 5/9
+cell Batch10Axial6 0 Batch10Axial6 fuelradial9 -fuelradial10 fuelaxial6 -fuelaxial7     % Batch: 10/12, Axial: 6/9
+cell Batch10Axial7 0 Batch10Axial7 fuelradial9 -fuelradial10 fuelaxial7 -fuelaxial8     % Batch: 10/12, Axial: 7/9
+cell Batch10Axial8 0 Batch10Axial8 fuelradial9 -fuelradial10 fuelaxial8 -fuelaxial9     % Batch: 10/12, Axial: 8/9
+cell Batch10Axial9 0 Batch10Axial9 fuelradial9 -fuelradial10 fuelaxial9 -fuelaxial10     % Batch: 10/12, Axial: 9/9
+cell Batch11Axial1 0 Batch11Axial1 fuelradial10 -fuelradial11 fuelaxial1 -fuelaxial2     % Batch: 11/12, Axial: 1/9
+cell Batch11Axial2 0 Batch11Axial2 fuelradial10 -fuelradial11 fuelaxial2 -fuelaxial3     % Batch: 11/12, Axial: 2/9
+cell Batch11Axial3 0 Batch11Axial3 fuelradial10 -fuelradial11 fuelaxial3 -fuelaxial4     % Batch: 11/12, Axial: 3/9
+cell Batch11Axial4 0 Batch11Axial4 fuelradial10 -fuelradial11 fuelaxial4 -fuelaxial5     % Batch: 11/12, Axial: 4/9
+cell Batch11Axial5 0 Batch11Axial5 fuelradial10 -fuelradial11 fuelaxial5 -fuelaxial6     % Batch: 11/12, Axial: 5/9
+cell Batch11Axial6 0 Batch11Axial6 fuelradial10 -fuelradial11 fuelaxial6 -fuelaxial7     % Batch: 11/12, Axial: 6/9
+cell Batch11Axial7 0 Batch11Axial7 fuelradial10 -fuelradial11 fuelaxial7 -fuelaxial8     % Batch: 11/12, Axial: 7/9
+cell Batch11Axial8 0 Batch11Axial8 fuelradial10 -fuelradial11 fuelaxial8 -fuelaxial9     % Batch: 11/12, Axial: 8/9
+cell Batch11Axial9 0 Batch11Axial9 fuelradial10 -fuelradial11 fuelaxial9 -fuelaxial10     % Batch: 11/12, Axial: 9/9
+cell Batch12Axial1 0 Batch12Axial1 fuelradial11 -fuelradial12 fuelaxial1 -fuelaxial2     % Batch: 12/12, Axial: 1/9
+cell Batch12Axial2 0 Batch12Axial2 fuelradial11 -fuelradial12 fuelaxial2 -fuelaxial3     % Batch: 12/12, Axial: 2/9
+cell Batch12Axial3 0 Batch12Axial3 fuelradial11 -fuelradial12 fuelaxial3 -fuelaxial4     % Batch: 12/12, Axial: 3/9
+cell Batch12Axial4 0 Batch12Axial4 fuelradial11 -fuelradial12 fuelaxial4 -fuelaxial5     % Batch: 12/12, Axial: 4/9
+cell Batch12Axial5 0 Batch12Axial5 fuelradial11 -fuelradial12 fuelaxial5 -fuelaxial6     % Batch: 12/12, Axial: 5/9
+cell Batch12Axial6 0 Batch12Axial6 fuelradial11 -fuelradial12 fuelaxial6 -fuelaxial7     % Batch: 12/12, Axial: 6/9
+cell Batch12Axial7 0 Batch12Axial7 fuelradial11 -fuelradial12 fuelaxial7 -fuelaxial8     % Batch: 12/12, Axial: 7/9
+cell Batch12Axial8 0 Batch12Axial8 fuelradial11 -fuelradial12 fuelaxial8 -fuelaxial9     % Batch: 12/12, Axial: 8/9
+cell Batch12Axial9 0 Batch12Axial9 fuelradial11 -fuelradial12 fuelaxial9 -fuelaxial10     % Batch: 12/12, Axial: 9/9
+
+% ################################################################################### //// ######## //// ####### 
+% ##################### Outer radial cells ########################################## //// ######## //// ####### 
+% ################################################################################### //// ######## //// ####### 
+
+cell belowcoreradialreflectorcell 0 belowcoreradialreflectormat fuelradial12 -radialreflector lowershield -fuelaxial1 
+cell belowcoreradialshieldcell 0 belowcoreradialshieldmat radialreflector -radialshield lowershield -fuelaxial1 
+cell radialreflectorcell0 0 radialreflectormat0 fuelradial12 -radialreflector fuelaxial1 -fuelaxial2
+cell radialreflectorcell1 0 radialreflectormat1 fuelradial12 -radialreflector fuelaxial2 -fuelaxial3
+cell radialreflectorcell2 0 radialreflectormat2 fuelradial12 -radialreflector fuelaxial3 -fuelaxial4
+cell radialreflectorcell3 0 radialreflectormat3 fuelradial12 -radialreflector fuelaxial4 -fuelaxial5
+cell radialreflectorcell4 0 radialreflectormat4 fuelradial12 -radialreflector fuelaxial5 -fuelaxial6
+cell radialreflectorcell5 0 radialreflectormat5 fuelradial12 -radialreflector fuelaxial6 -fuelaxial7
+cell radialreflectorcell6 0 radialreflectormat6 fuelradial12 -radialreflector fuelaxial7 -fuelaxial8
+cell radialreflectorcell7 0 radialreflectormat7 fuelradial12 -radialreflector fuelaxial8 -fuelaxial9
+cell radialreflectorcell8 0 radialreflectormat8 fuelradial12 -radialreflector fuelaxial9 -fuelaxial10
+
+cell radialshieldcell0 0 radialshieldmat0 radialreflector -radialshield fuelaxial1 -fuelaxial2
+cell radialshieldcell1 0 radialshieldmat1 radialreflector -radialshield fuelaxial2 -fuelaxial3
+cell radialshieldcell2 0 radialshieldmat2 radialreflector -radialshield fuelaxial3 -fuelaxial4
+cell radialshieldcell3 0 radialshieldmat3 radialreflector -radialshield fuelaxial4 -fuelaxial5
+cell radialshieldcell4 0 radialshieldmat4 radialreflector -radialshield fuelaxial5 -fuelaxial6
+cell radialshieldcell5 0 radialshieldmat5 radialreflector -radialshield fuelaxial6 -fuelaxial7
+cell radialshieldcell6 0 radialshieldmat6 radialreflector -radialshield fuelaxial7 -fuelaxial8
+cell radialshieldcell7 0 radialshieldmat7 radialreflector -radialshield fuelaxial8 -fuelaxial9
+cell radialshieldcell8 0 radialshieldmat8 radialreflector -radialshield fuelaxial9 -fuelaxial10
+
+cell abovecoreradialreflectorcell 0 abovecoreradialreflectormat fuelradial12 -radialreflector fuelaxial10 -upperreflector  
+
+cell abovecoreradialshieldcell 0 abovecoreradialshieldmat radialreflector -radialshield fuelaxial10 -upperreflector  
+
+cell radialoutercoolantcell 0 outsidecoolantmat radialshield -radialsystem lowershield -upperreflector 
+
+% ################################################################################### //// ######## //// ####### 
+% ##################### Upper cells ################################################# //// ######## //// ####### 
+% ################################################################################### //// ######## //// ####### 
+
+cell uppergasplenumcell   0 uppergasplenummat   -fuelradial12  fuelaxial10 -upperreflector    
+cell abovecorecoolantcell 0 abovecorecoolantmat -radialsystem upperreflector -systemtop 
+
+% ################################################################################### //// ######## //// ####### 
+% ##################### Outside cells ############################################### //// ######## //// ####### 
+% ################################################################################### //// ######## //// ####### 
+
+cell outdowninner 0 outside -systembottom  -radialsystem              
+cell outdownouter 0 outside -systembottom   radialsystem              
+cell outupinner   0 outside  systemtop     -radialsystem              
+cell outupouter   0 outside  systemtop      radialsystem              
+cell outxradial   0 outside  systembottom  -systemtop    radialsystem 
+
+% ################################################################################### //// ######## //// ####### 
+% ##################### XS-paths #################################################### //// ######## //// ####### 
+% ################################################################################### //// ######## //// ####### 
+
+set acelib "/global/home/groups/co_nuclear/serpent/xsdata_2/endfb7/sss_endfb7u.xsdata"
+set declib "/global/home/groups/co_nuclear/serpent/xsdata_2/endfb7/sss_endfb7.dec"
+set nfylib "/global/home/groups/co_nuclear/serpent/xsdata_2/endfb7/sss_endfb7.nfy"
+
+% ################################################################################### //// ######## //// ####### 
+% ##################### Power ####################################################### //// ######## //// ####### 
+% ################################################################################### //// ######## //// ####### 
+
+set power 3500000000.0
+
+% --- Reduce energy grid size:
+set egrid 5E-3 1E-5 10.0
+
+% --- Cut-offs:
+set fpcut   1E-9
+set stabcut 1E-12
+set ttacut  1E-18
+set xsfcut  1E-6
+
+set pcc 0
+set pop 100000 420 30
+
+set inventory all
+
+%dep daystep 305.51656214825573 305.51656214825573 305.51656214825573 
+include "BnB.bumat0_mod"
+include 'BnB_nonfuel'
+
+set printm 1

@@ -248,8 +248,10 @@ det belowshieldflux n dn 1 0. 222.437 1 0. 360. 1 -100. 0. 10 dv 1.554E6
 
 det belowshieldsigma n dn 1 0. 222.437 1 0. 360. 1 -100. 0. 10 dv 1.554E6 dr 101 lithium
 
-det belowcoreshieldsigma n dc lowershieldcell dv 777202.0 dr 205 boron
+det belowcoreshieldsigma n dc lowershieldcell dv 777202.0 dr 205 boron10
 
-mat boron sum
+mat boron10 sum
     5010.06c 0.9E-10
+
+mat boron11 sum
     5011.06c 0.1E-10
